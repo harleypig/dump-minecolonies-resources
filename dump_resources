@@ -1,0 +1,193 @@
+#!/usr/bin/env perl
+
+# !!! This is written specifically for MineColonies structure nbt files.
+# !!! There are no checks for invalid data.
+# !!! Use at your own peril!
+
+# Use my version of Minecraft::NBTReader found at
+# https://github.com/harleypig/Minecraft-NBTReader
+#
+# I've added support for the TAG_Int_Array type and removed a block for nbt
+# files that end with two nulls.
+
+# XXX: Do I need to include the location of the hut block in the output?
+# XXX: Do I count 'double wooden slabs' as 2 slabs?
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use File::Basename;
+use Minecraft::NBTReader;
+use YAML::Syck;
+
+$Data::Dumper::Indent=1;
+
+#################################################################################
+
+my $hut_info;
+
+my $method_hash = {
+  author   => sub { simple('author',   @_) },
+  entities => sub { simple('entities', @_) },
+  version  => sub { simple('version',  @_) },
+  size     => sub { simple('size',     @_) },
+
+  blocks   => \&blocks,
+  palette  => \&palette,
+
+};
+
+#################################################################################
+
+my $filename = shift or die "Must pass filename.\n";
+my $data     = read_file($filename);
+
+for my $el ( keys %$data ) {
+
+  warn sprintf "unknown method key: %s\n", Dumper $data->{$el}
+    unless exists $method_hash->{$el};
+
+  $method_hash->{$el}->($data->{$el});
+
+}
+
+dump_required_resources();
+
+exit;
+
+#################################################################################
+
+sub simple { $hut_info->{$_[0]} = $_[1] }
+
+sub blocks {
+  my ( $blocks ) = @_;
+
+  my @blocks_info;
+
+  my @ignore_key = qw( nbt );
+
+  for my $block ( @$blocks ) {
+    my $block_info;
+
+    for my $key ( keys %$block ) {
+
+      if ( $key eq 'pos' ) {
+        $block_info->{xyz} = $block->{$key};
+
+      } elsif ( $key eq 'state' ) {
+        $block_info->{type} = $block->{$key};
+        $hut_info->{count}{$block->{$key}}++;
+
+      } else {
+        warn "uknown key ($key) in blocks\n"
+          unless grep {$key} @ignore_key;
+
+      }
+    }
+
+    push @blocks_info, $block_info;
+
+  }
+
+  $hut_info->{block_matrix} = \@blocks_info;
+
+}
+
+sub palette {
+  my ( $types ) = @_;
+
+  for my $type ( @$types ) {
+    my $string = $type->{Name};
+
+    $string =~ s/^minecraft://;
+    $string =~ s/_+/ /g;
+
+    # Special cases.
+
+    $string =~ s/^log2$/log/;
+
+    # Skip variants of these values.
+
+    my @skip_variant = qw(
+      default
+      lines_x
+      lines_y
+      lines_z
+    );
+
+    if ( exists $type->{Properties} && exists $type->{Properties}{variant} ) {
+      my $variant = $type->{Properties}{variant};
+
+      if ( ! grep { /$variant/ } @skip_variant ) {
+
+        $variant =~ s/_+/ /g;
+
+        # Avoid 'dirt dirt' or 'cracked stonebrick stonebrick'
+        $string = $variant =~ /$string/ ? $variant : "$variant $string";
+
+      }
+    }
+
+    $type->{string} = $string;
+
+  }
+
+  $hut_info->{block_types} = $types;
+
+}
+
+#################################################################################
+
+sub read_file {
+  my ( $filename ) = @_;
+  my $r = Minecraft::NBTReader->new;
+  my %d = $r->readFile($filename);
+
+  my $expected_root_key = 'unnamed_0000001';
+
+  die "unexpected root key\n"
+    unless exists $d{$expected_root_key};
+
+  return $d{$expected_root_key};
+
+}
+
+sub dump_required_resources {
+  my $resources;
+
+  my @ignore = qw(
+    minecraft:air
+    minecolonies:blockSubstitution
+  );
+
+  my $max_string_len = -1;
+  my $max_count_len  = -1;
+
+  for my $type ( keys %{$hut_info->{count}} ) {
+    my $name   = $hut_info->{block_types}[$type]{Name};
+
+    next if grep { /$name/ } @ignore;
+    next if $name =~ /^minecolonies:blockHut/;
+
+    my $count  = $hut_info->{count}{$type};
+    my $string = $hut_info->{block_types}[$type]{string};
+
+    $resources->{$string} += $count;
+
+    $max_string_len = length $string
+      if $max_string_len < length $string;
+
+    $max_count_len = length $count
+      if $max_count_len < length $count;
+
+  }
+
+  my $format   = "  %${max_string_len}s: %${max_count_len}d\n";
+  my $hut_name = basename($filename, '.nbt');
+  my $hut_size = join 'x', @{$hut_info->{size}};
+
+  printf "%s\nSize (xyz): %s\n%s\n\n", $hut_name, $hut_size, '-' x 40;
+  printf $format, $_, $resources->{$_} for sort keys %$resources;
+
+}
