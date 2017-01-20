@@ -100,12 +100,15 @@ sub palette {
   for my $type ( @$types ) {
     my $string = $type->{Name};
 
+    $DB::single = 1 if $type->{Name} =~ /prismarine/;
+
     $string =~ s/^minecraft://;
-    $string =~ s/_+/ /g;
 
     # Special cases.
 
+    $string =~ s/_+/ /g;
     $string =~ s/^log2$/log/;
+    $string =~ s/^fence$/oak fence/;
 
     # Skip variants of these values.
 
@@ -116,10 +119,12 @@ sub palette {
       lines_z
     );
 
-    if ( exists $type->{Properties} && exists $type->{Properties}{variant} ) {
-      my $variant = $type->{Properties}{variant};
+    if ( exists $type->{Properties} ) {
+      my $props   = $type->{Properties};
+      my $variant = exists $props->{variant} ? $props->{variant} : '';
+      my $color   = exists $props->{color}   ? $props->{color}   : '';
 
-      if ( ! grep { /$variant/ } @skip_variant ) {
+      if ( $variant ne '' && ! grep { /$variant/ } @skip_variant ) {
 
         $variant =~ s/_+/ /g;
 
@@ -127,6 +132,10 @@ sub palette {
         $string = $variant =~ /$string/ ? $variant : "$variant $string";
 
       }
+
+      $string = "$color $string"
+        unless $color eq '';
+
     }
 
     $type->{string} = $string;
