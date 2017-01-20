@@ -4,7 +4,7 @@ Size (xyz): 15x9x13
 
       cobblestone: 11
              dirt: 63
-            fence: 42
+        oak fence: 42
           oak log:  3
        oak planks: 13
   oak wooden slab: 32
@@ -19,9 +19,9 @@ Size (xyz): 15x9x13
      birch planks:  3
       cobblestone: 68
    crafting table:  1
-            fence: 60
           furnace:  1
             glass:  3
+        oak fence: 60
           oak log:  2
        oak planks: 31
   oak wooden slab: 64
@@ -29,7 +29,7 @@ Size (xyz): 15x9x13
     spruce planks:  2
             stone:  3
             torch: 11
-             wool:  5
+       white wool:  5
 
 
 Builder3
@@ -40,19 +40,23 @@ Size (xyz): 15x9x13
           acacia planks:   1
               birch log:   2
            birch planks:   2
+             black wool:   1
             brick block:   1
+             brown wool:   1
             coarse dirt:  27
             cobblestone: 101
          crafting table:   1
            dark oak log:   2
         dark oak planks:   3
-                  fence:  44
                 furnace:   1
                   glass:   3
              glass pane:  12
+              gray wool:   1
+             green wool:   1
              jungle log:   2
           jungle planks:   1
       mossy cobblestone:   2
+              oak fence:  44
                 oak log:  18
              oak planks:  81
              oak stairs:  12
@@ -66,7 +70,7 @@ Size (xyz): 15x9x13
      spruce wooden slab:  16
                   stone:   2
                   torch:  13
-                   wool:   5
+             white wool:   1
 
 
 Builder4
@@ -77,21 +81,25 @@ Size (xyz): 15x9x13
           acacia planks:   1
               birch log:   2
            birch planks:   2
+           black carpet:   2
+             black wool:   1
             brick block:   1
-                 carpet:   2
+             brown wool:   1
             coarse dirt:  27
             cobblestone: 101
          crafting table:   1
            dark oak log:   2
         dark oak planks:   3
-                  fence:  32
                 furnace:   1
                   glass:   3
              glass pane:  12
+              gray wool:   1
+             green wool:   1
              jungle log:   2
           jungle planks:   1
       mossy cobblestone:   2
            nether brick:   4
+              oak fence:  32
                 oak log:  30
              oak planks: 139
              oak stairs:  28
@@ -108,58 +116,65 @@ Size (xyz): 15x9x13
                   stone:   2
                   torch:  12
                trapdoor:  12
-                   wool:   5
+             white wool:   1
 
 
 Builder5
 Size (xyz): 15x9x13
 ----------------------------------------
 
-             acacia log:   2
-              birch log:   2
-            brick block:   1
-                 carpet:   2
-                  chest:   2
-    chiseled stonebrick:   3
-            coarse dirt:  27
-            cobblestone: 101
-     cracked stonebrick:   2
-         crafting table:   1
-           dark oak log:   2
-        dark prismarine:   1
-                  fence:  32
-                furnace:   1
-                  glass:   3
-             glass pane:  12
-              glowstone:   1
-             jungle log:   2
-      mossy cobblestone:   2
-       mossy stonebrick:   3
-           nether brick:   4
-                oak log:  30
-             oak planks: 138
-             oak stairs:  28
-               obsidian:   2
-            podzol dirt:   4
-             prismarine:   1
-           purpur block:   1
-          purpur pillar:   2
-           quartz block:   4
-       red nether brick:   3
-              sandstone:   2
-  smooth andesite stone:   1
-   smooth diorite stone:   2
-   smooth granite stone:   2
-              soul sand:   3
-            spruce door:   4
-             spruce log:   2
-          spruce stairs:  68
-     spruce wooden slab:  36
-  stained hardened clay:   4
-                  stone:   1
-                  torch:  12
-               trapdoor:  12
-                   wool:   5
+                    acacia log:   2
+                     birch log:   2
+                  black carpet:   2
+   black stained hardened clay:   1
+                    black wool:   1
+    blue stained hardened clay:   1
+                   brick block:   1
+                    brown wool:   1
+                         chest:   2
+           chiseled stonebrick:   3
+                   coarse dirt:  27
+                   cobblestone: 101
+            cracked stonebrick:   2
+                crafting table:   1
+                  dark oak log:   2
+               dark prismarine:   1
+                       furnace:   1
+                         glass:   3
+                    glass pane:  12
+                     glowstone:   1
+                     gray wool:   1
+                    green wool:   1
+                    jungle log:   2
+             mossy cobblestone:   2
+              mossy stonebrick:   3
+                  nether brick:   4
+                     oak fence:  32
+                       oak log:  30
+                    oak planks: 138
+                    oak stairs:  28
+                      obsidian:   2
+  orange stained hardened clay:   1
+    pink stained hardened clay:   1
+                   podzol dirt:   4
+                    prismarine:   1
+                  purpur block:   1
+                 purpur pillar:   2
+                  quartz block:   4
+              red nether brick:   3
+                     sandstone:   2
+         smooth andesite stone:   1
+          smooth diorite stone:   2
+          smooth granite stone:   2
+                     soul sand:   3
+                   spruce door:   4
+                    spruce log:   2
+                 spruce stairs:  68
+            spruce wooden slab:  36
+                         stone:   1
+                         torch:  12
+                      trapdoor:  12
+                    white wool:   1
 
 
 Citizen1
@@ -167,7 +182,7 @@ Size (xyz): 13x18x12
 ----------------------------------------
 
       cobblestone:  40
-            fence:  10
+        oak fence:  10
           oak log:  39
        oak planks: 193
        oak stairs: 170
@@ -182,9 +197,9 @@ Size (xyz): 13x18x12
 
       cobblestone:  92
    crafting table:   1
-            fence:   3
           furnace:   1
        glass pane:  20
+        oak fence:   3
           oak log:  39
        oak planks: 141
        oak stairs: 112
@@ -192,8 +207,8 @@ Size (xyz): 13x18x12
      spruce fence:   4
     spruce stairs:  62
             torch:  10
+       white wool:   4
       wooden door:   4
-             wool:   4
 
 
 Citizen3
@@ -201,24 +216,25 @@ Size (xyz): 13x18x12
 ----------------------------------------
 
                      bed:   4
-                  carpet:  14
+            black carpet:   6
                    chest:   1
              cobblestone:  92
           crafting table:   1
-                   fence:   8
                  furnace:   1
               glass pane:  40
   oak double wooden slab:   1
+               oak fence:   8
                  oak log:  70
               oak planks: 298
               oak stairs: 125
          oak wooden slab:  53
+              red carpet:   8
             spruce fence:   4
            spruce stairs:  77
             stone button:   7
                    torch:  12
+              white wool:   4
              wooden door:   4
-                    wool:   4
 
 
 Citizen4
@@ -227,27 +243,29 @@ Size (xyz): 13x18x12
 
                      bed:   4
             birch stairs:   2
-                  carpet:  28
+            black carpet:   6
                    chest:   3
              cobblestone:  92
           crafting table:   1
            dark oak door:   4
-                   fence:  12
               flower pot:  22
                  furnace:   1
               glass pane:  40
+       light_blue carpet:  14
   oak double wooden slab:   1
+               oak fence:  12
                  oak log:  70
               oak planks: 280
               oak stairs: 145
          oak wooden slab:  53
+              red carpet:   8
             spruce fence:   4
            spruce stairs:  99
             stone button:   7
                    torch:  12
                 trapdoor:  36
                wall sign:   2
-                    wool:   4
+              white wool:   4
 
 
 Citizen5
@@ -256,29 +274,32 @@ Size (xyz): 13x18x12
 
            acacia stairs:   3
                      bed:   4
-                  carpet:  29
+            black carpet:   6
                    chest:   3
      chiseled stonebrick:   1
              cobblestone: 107
           crafting table:   1
            dark oak door:   6
-                   fence:  12
               flower pot:  19
                  furnace:   1
               glass pane:  36
+             gray carpet:   1
                iron bars:   7
+       light_blue carpet:  14
   oak double wooden slab:   1
+               oak fence:  12
                  oak log:  85
               oak planks: 275
               oak stairs: 136
          oak wooden slab:  65
+              red carpet:   8
             spruce fence:   4
            spruce stairs:  96
       spruce wooden slab:   2
             stone button:   8
                    torch:  16
                 trapdoor:  36
-                    wool:   3
+              white wool:   3
 
 
 Deliveryman1
@@ -286,7 +307,7 @@ Size (xyz): 12x10x15
 ----------------------------------------
 
       cobblestone:  4
-            fence: 14
+        oak fence: 14
        oak planks:  8
   oak wooden slab: 21
             torch: 11
@@ -297,8 +318,8 @@ Size (xyz): 11x15x15
 ----------------------------------------
 
   cobblestone:  8
-        fence: 37
     hay block:  4
+    oak fence: 37
    oak planks:  4
         torch:  4
         water:  1
@@ -309,8 +330,8 @@ Size (xyz): 11x15x15
 ----------------------------------------
 
       cobblestone:  8
-            fence: 62
         hay block: 12
+        oak fence: 62
        oak planks: 14
   oak wooden slab: 82
             torch: 10
@@ -324,16 +345,16 @@ Size (xyz): 12x15x16
             cauldron:   1
          coarse dirt: 114
          cobblestone:   8
-               fence:  56
            hay block:  15
+           oak fence:  56
              oak log:  58
+         orange wool:   2
         spruce fence:  12
        spruce planks:  49
        spruce stairs:  71
   spruce wooden slab:  77
                torch:  16
        wooden button:   2
-                wool:   2
 
 
 Farmer4
@@ -387,7 +408,7 @@ Fisherman1
 Size (xyz): 11x10x12
 ----------------------------------------
 
-            fence: 11
+        oak fence: 11
        oak planks:  6
        oak stairs:  7
   oak wooden slab: 31
@@ -401,8 +422,8 @@ Size (xyz): 11x10x12
 
          cobblestone: 17
       crafting table:  1
-               fence: 36
           fence gate:  1
+           oak fence: 36
           oak planks: 12
      oak wooden slab: 48
        spruce stairs:  2
@@ -419,7 +440,7 @@ Size (xyz): 11x9x11
          coarse dirt: 36
          cobblestone: 54
       crafting table:  1
-               fence: 26
+           oak fence: 26
              oak log: 32
           oak planks: 39
           oak stairs: 54
@@ -439,8 +460,8 @@ Size (xyz): 11x9x11
          coarse dirt: 36
          cobblestone: 54
       crafting table:  1
-               fence:  2
           glass pane:  2
+           oak fence:  2
              oak log: 48
           oak planks: 55
           oak stairs:  1
@@ -461,9 +482,9 @@ Size (xyz): 11x9x11
          coarse dirt: 36
          cobblestone: 54
       crafting table:  1
-               fence:  5
           flower pot:  1
           glass pane:  2
+           oak fence:  5
              oak log: 59
           oak planks: 64
           oak stairs:  1
@@ -480,8 +501,8 @@ GuardTower1
 Size (xyz): 9x18x9
 ----------------------------------------
 
-            fence: 29
            ladder: 10
+        oak fence: 29
           oak log: 12
        oak planks: 18
        oak stairs: 27
@@ -494,9 +515,9 @@ Size (xyz): 9x18x9
 ----------------------------------------
 
       cobblestone: 40
-            fence: 38
        fence gate:  1
            ladder: 10
+        oak fence: 38
           oak log: 28
        oak planks: 41
        oak stairs: 28
@@ -513,9 +534,9 @@ Size (xyz): 9x18x9
                            bed:   2
                    cobblestone: 123
   cobblestone cobblestone wall:  20
-                         fence:  16
                         ladder:  10
         oak double wooden slab:   1
+                     oak fence:  16
                        oak log:  28
                     oak planks:  31
                     oak stairs:  44
@@ -532,8 +553,8 @@ Size (xyz): 9x18x9
                            bed:   4
                    cobblestone:  92
   cobblestone cobblestone wall:  20
-                         fence:  26
                         ladder:  20
+                     oak fence:  26
                     oak planks:  21
                     oak stairs:  22
                oak wooden slab:  92
@@ -551,9 +572,9 @@ Size (xyz): 9x18x9
                     bed:   4
     chiseled stonebrick:  20
             cobblestone:  22
-                  fence:  24
              glass pane:   2
                  ladder:  23
+              oak fence:  24
              oak planks:  62
              oak stairs:  46
         oak wooden slab: 153
@@ -569,7 +590,7 @@ Size (xyz): 12x10x15
 ----------------------------------------
 
       cobblestone:  4
-            fence: 14
+        oak fence: 14
        oak planks:  8
   oak wooden slab: 21
             torch: 11
@@ -581,7 +602,7 @@ Size (xyz): 11x10x14
 
       cobblestone: 19
    crafting table:  1
-            fence: 44
+        oak fence: 44
           oak log:  5
        oak planks: 18
   oak wooden slab: 49
@@ -595,8 +616,8 @@ Size (xyz): 10x10x13
          coarse dirt: 68
          cobblestone: 21
       crafting table:  1
-               fence: 38
           glass pane:  4
+           oak fence: 38
              oak log: 24
           oak planks: 85
           oak stairs: 16
@@ -613,10 +634,10 @@ Size (xyz): 10x10x13
          coarse dirt:  55
          cobblestone:  40
       crafting table:   1
-               fence:  16
           flower pot:   6
           glass pane:   4
            iron bars:   8
+           oak fence:  16
              oak log:  35
           oak planks: 120
           oak stairs:  22
@@ -637,10 +658,10 @@ Size (xyz): 10x10x13
              cobblestone:  62
   cobblestone stone slab:   3
           crafting table:   1
-                   fence:  12
               flower pot:   9
               glass pane:   6
                iron bars:   8
+               oak fence:  12
                  oak log:  43
               oak planks: 129
               oak stairs:  31
@@ -658,8 +679,8 @@ Size (xyz): 11x12x16
 ----------------------------------------
 
       cobblestone:  2
-            fence: 32
            ladder:  3
+        oak fence: 32
        oak planks: 46
        oak stairs: 18
   oak wooden slab: 36
@@ -672,9 +693,9 @@ Size (xyz): 11x12x16
 
   cobblestone:  53
          dirt:   4
-        fence:  30
    glass pane:   4
        ladder:   3
+    oak fence:  30
       oak log:  24
    oak planks: 117
    oak stairs:  95
@@ -686,16 +707,16 @@ Miner3
 Size (xyz): 11x12x16
 ----------------------------------------
 
-           carpet:   8
        coal block:   1
       cobblestone:  52
    crafting table:   1
              dirt:   4
-            fence:  36
           furnace:   3
             glass:   9
        glass pane:   4
+     green carpet:   8
            ladder:   3
+        oak fence:  36
           oak log:  24
        oak planks: 126
        oak stairs: 106
@@ -708,15 +729,16 @@ Miner4
 Size (xyz): 11x12x16
 ----------------------------------------
 
-              carpet:  12
+        black carpet:   4
          cobblestone:  24
       crafting table:   1
                 dirt:   4
-               fence:  28
              furnace:   3
                glass:   9
           glass pane:   4
+        green carpet:   8
               ladder:   3
+           oak fence:  28
              oak log:  24
           oak planks: 107
           oak stairs:   2
@@ -735,17 +757,18 @@ Miner5
 Size (xyz): 11x12x16
 ----------------------------------------
 
-          carpet:  12
+    black carpet:   4
      cobblestone:  24
   crafting table:   1
    dark oak door:   4
             dirt:   4
    emerald block:   1
-           fence:  59
          furnace:   3
            glass:   9
       glass pane:   4
+    green carpet:   8
           ladder:   3
+       oak fence:  59
          oak log:  66
       oak planks: 103
       oak stairs:   2
@@ -776,22 +799,23 @@ Size (xyz): 17x30x32
         bookshelf:   11
             chest:    4
         dispenser:   12
-            fence:  104
             glass:    9
        glass pane:    4
         glowstone:    2
        gold block:    4
            ladder:   44
+        oak fence:  104
           oak log:   36
        oak planks:  454
        oak stairs:   98
   oak wooden slab:    8
+         red wool:   83
        spruce log:  112
      stone button:   28
      stone stairs:   24
             torch:   43
             water: 1515
-             wool:  156
+       white wool:   73
 
 
 TownHall1
@@ -799,8 +823,8 @@ Size (xyz): 24x16x18
 ----------------------------------------
 
       cobblestone:  98
-            fence:  22
        glass pane:  20
+        oak fence:  22
           oak log: 124
        oak planks: 114
        oak stairs: 170
@@ -818,9 +842,9 @@ Size (xyz): 24x16x18
                   chest:   2
             cobblestone: 146
          crafting table:   1
-                  fence:  22
                 furnace:   1
              glass pane:  32
+              oak fence:  22
                 oak log: 176
              oak planks: 138
              oak stairs: 244
@@ -841,15 +865,16 @@ Size (xyz): 24x16x18
 
                     bed:   2
            birch stairs:   2
+           black carpet:   5
               bookshelf:  12
-                 carpet:  15
                   chest:  16
             cobblestone:  19
          crafting table:   1
           dark oak door:   4
-                  fence:  38
                 furnace:   1
              glass pane:  40
+           green carpet:  10
+              oak fence:  38
                 oak log: 306
              oak planks: 182
              oak stairs: 276
@@ -870,17 +895,19 @@ Size (xyz): 24x16x18
 
                     bed:  10
            birch stairs:  13
+           black carpet:   5
+            blue carpet:  31
               bookshelf:  21
-                 carpet:  46
                   chest:  24
             cobblestone:   9
          crafting table:   1
           dark oak door:   8
        enchanting table:   1
-                  fence:  35
                 furnace:   1
              glass pane:  44
+           green carpet:  10
                 jukebox:   1
+              oak fence:  35
                 oak log: 358
              oak planks: 138
              oak stairs:   4
@@ -903,9 +930,10 @@ Size (xyz): 24x20x18
                       anvil:   1
                         bed:  10
                birch stairs:  13
+               black carpet:   5
+                blue carpet:  11
                   bookshelf:  21
               brewing stand:   3
-                     carpet:  56
                    cauldron:   3
                       chest:  25
         chiseled stonebrick:   5
@@ -914,18 +942,21 @@ Size (xyz): 24x20x18
               dark oak door:   8
                        dirt: 100
            enchanting table:   1
-                      fence:  35
                  flower pot:  16
                     furnace:   1
                  glass pane:  44
+               green carpet:  10
                   iron bars:  38
                     jukebox:   1
         nether brick stairs:   1
+                  oak fence:  35
                     oak log: 396
                  oak planks: 138
                  oak stairs:   4
             oak wooden slab: 148
+              orange carpet:  20
               purpur pillar:  20
+                 red carpet:  10
                 sea lantern:   1
                       skull:   1
   spruce double wooden slab:   4
@@ -939,3 +970,5 @@ Size (xyz): 24x20x18
                    trapdoor:  72
                   wall sign:   8
       wooden pressure plate:   2
+
+
