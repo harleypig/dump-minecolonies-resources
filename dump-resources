@@ -100,8 +100,6 @@ sub palette {
   for my $type ( @$types ) {
     my $string = $type->{Name};
 
-    $DB::single = 1 if $type->{Name} =~ /prismarine/;
-
     $string =~ s/^minecraft://;
 
     # Special cases.
