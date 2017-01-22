@@ -52,7 +52,7 @@ for my $el ( keys %$data ) {
 
 }
 
-dump_required_resources();
+dump_required_resources( $hut_info );
 
 exit;
 
@@ -65,7 +65,7 @@ sub blocks {
 
   my @blocks_info;
 
-  my @ignore_key = qw( nbt );
+  my @ignore_key = ();
 
   for my $block ( @$blocks ) {
     my $block_info;
@@ -78,6 +78,12 @@ sub blocks {
       } elsif ( $key eq 'state' ) {
         $block_info->{type} = $block->{$key};
         $hut_info->{count}{$block->{$key}}++;
+
+      } elsif ( $key eq 'nbt' ) {
+        die "multiple nbt's, don't know what to do"
+          if exists $hut_info->{hut_pos};
+
+        $hut_info->{hut_pos} = $block->{pos};
 
       } else {
         warn "uknown key ($key) in blocks\n"
@@ -160,7 +166,49 @@ sub read_file {
 
 }
 
+#################################################################################
+
 sub dump_required_resources {
+  my ( $hut_info ) = @_;
+
+  my $hut_name    = hut_name();
+  my $hut_details = hut_details( $hut_info );
+  #my $hut_outline = hut_outline( $hut_info );
+
+  my ( $res_fmt, $resources ) = hut_resources( $hut_info );
+
+  printf "%s\n\n%s\n\n%s\n\n", $hut_name, $hut_details, '-' x 40;
+  printf $res_fmt, $_, $resources->{$_} for sort keys %$resources;
+
+}
+
+sub hut_name { basename($filename, '.nbt') }
+
+sub hut_details {
+  my ( $hut_info ) = @_;
+
+  my $join = sub { join ' x ', map { sprintf "%2d", $_ } @{$_[0]} };
+
+  my $hut_size_txt = 'Size (xyz):';
+  my $hut_size_len = length $hut_size_txt;
+  my $hut_size_val = $join->($hut_info->{size});
+
+  my $hut_pos_txt = 'Hut Location (xyz):';
+  my $hut_pos_len = length $hut_pos_txt;
+  my $hut_pos_val = $join->($hut_info->{hut_pos});
+
+  my $info_pad = $hut_size_len > $hut_pos_len ? $hut_size_len : $hut_pos_len;
+
+  my $hut_size = sprintf "  %${info_pad}s %s", $hut_size_txt, $hut_size_val;
+  my $hut_pos  = sprintf "  %${info_pad}s %s", $hut_pos_txt,  $hut_pos_val;
+
+  return "$hut_size\n$hut_pos";
+
+}
+
+sub hut_resources {
+  my ( $hut_info ) = @_;
+
   my $resources;
 
   my @ignore = qw(
@@ -197,11 +245,8 @@ sub dump_required_resources {
 
   }
 
-  my $format   = "  %${max_string_len}s: %${max_count_len}d\n";
-  my $hut_name = basename($filename, '.nbt');
-  my $hut_size = join 'x', @{$hut_info->{size}};
+  my $hut_res_fmt = "  %${max_string_len}s: %${max_count_len}d\n";
 
-  printf "%s\nSize (xyz): %s\n%s\n\n", $hut_name, $hut_size, '-' x 40;
-  printf $format, $_, $resources->{$_} for sort keys %$resources;
+  return ( $hut_res_fmt, $resources );
 
 }
