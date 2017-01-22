@@ -180,6 +180,13 @@ sub dump_required_resources {
     my $count  = $hut_info->{count}{$type};
     my $string = $hut_info->{block_types}[$type]{string};
 
+    # Special cases
+    if ( $string =~ /double wooden slab$/ ) {
+      $string =~ s/double //;
+      $resources->{$string} += $count;
+
+    }
+
     $resources->{$string} += $count;
 
     $max_string_len = length $string

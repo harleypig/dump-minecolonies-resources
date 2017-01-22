@@ -215,91 +215,88 @@ Citizen3
 Size (xyz): 13x18x12
 ----------------------------------------
 
-                     bed:   4
-            black carpet:   6
-                   chest:   1
-             cobblestone:  92
-          crafting table:   1
-                 furnace:   1
-              glass pane:  40
-  oak double wooden slab:   1
-               oak fence:   8
-                 oak log:  70
-              oak planks: 298
-              oak stairs: 125
-         oak wooden slab:  53
-              red carpet:   8
-            spruce fence:   4
-           spruce stairs:  77
-            stone button:   7
-                   torch:  12
-              white wool:   4
-             wooden door:   4
+              bed:   4
+     black carpet:   6
+            chest:   1
+      cobblestone:  92
+   crafting table:   1
+          furnace:   1
+       glass pane:  40
+        oak fence:   8
+          oak log:  70
+       oak planks: 298
+       oak stairs: 125
+  oak wooden slab:  55
+       red carpet:   8
+     spruce fence:   4
+    spruce stairs:  77
+     stone button:   7
+            torch:  12
+       white wool:   4
+      wooden door:   4
 
 
 Citizen4
 Size (xyz): 13x18x12
 ----------------------------------------
 
-                     bed:   4
-            birch stairs:   2
-            black carpet:   6
-                   chest:   3
-             cobblestone:  92
-          crafting table:   1
-           dark oak door:   4
-              flower pot:  22
-                 furnace:   1
-              glass pane:  40
-       light_blue carpet:  14
-  oak double wooden slab:   1
-               oak fence:  12
-                 oak log:  70
-              oak planks: 280
-              oak stairs: 145
-         oak wooden slab:  53
-              red carpet:   8
-            spruce fence:   4
-           spruce stairs:  99
-            stone button:   7
-                   torch:  12
-                trapdoor:  36
-               wall sign:   2
-              white wool:   4
+                bed:   4
+       birch stairs:   2
+       black carpet:   6
+              chest:   3
+        cobblestone:  92
+     crafting table:   1
+      dark oak door:   4
+         flower pot:  22
+            furnace:   1
+         glass pane:  40
+  light_blue carpet:  14
+          oak fence:  12
+            oak log:  70
+         oak planks: 280
+         oak stairs: 145
+    oak wooden slab:  55
+         red carpet:   8
+       spruce fence:   4
+      spruce stairs:  99
+       stone button:   7
+              torch:  12
+           trapdoor:  36
+          wall sign:   2
+         white wool:   4
 
 
 Citizen5
 Size (xyz): 13x18x12
 ----------------------------------------
 
-           acacia stairs:   3
-                     bed:   4
-            black carpet:   6
-                   chest:   3
-     chiseled stonebrick:   1
-             cobblestone: 107
-          crafting table:   1
-           dark oak door:   6
-              flower pot:  19
-                 furnace:   1
-              glass pane:  36
-             gray carpet:   1
-               iron bars:   7
-       light_blue carpet:  14
-  oak double wooden slab:   1
-               oak fence:  12
-                 oak log:  85
-              oak planks: 275
-              oak stairs: 136
-         oak wooden slab:  65
-              red carpet:   8
-            spruce fence:   4
-           spruce stairs:  96
-      spruce wooden slab:   2
-            stone button:   8
-                   torch:  16
-                trapdoor:  36
-              white wool:   3
+        acacia stairs:   3
+                  bed:   4
+         black carpet:   6
+                chest:   3
+  chiseled stonebrick:   1
+          cobblestone: 107
+       crafting table:   1
+        dark oak door:   6
+           flower pot:  19
+              furnace:   1
+           glass pane:  36
+          gray carpet:   1
+            iron bars:   7
+    light_blue carpet:  14
+            oak fence:  12
+              oak log:  85
+           oak planks: 275
+           oak stairs: 136
+      oak wooden slab:  67
+           red carpet:   8
+         spruce fence:   4
+        spruce stairs:  96
+   spruce wooden slab:   2
+         stone button:   8
+                torch:  16
+             trapdoor:  36
+           white wool:   3
 
 
 Deliveryman1
@@ -535,12 +532,11 @@ Size (xyz): 9x18x9
                    cobblestone: 123
   cobblestone cobblestone wall:  20
                         ladder:  10
-        oak double wooden slab:   1
                      oak fence:  16
                        oak log:  28
                     oak planks:  31
                     oak stairs:  44
-               oak wooden slab:  78
+               oak wooden slab:  80
                    spruce door:   2
                   stone stairs:  20
                          torch:  20
@@ -927,48 +923,47 @@ TownHall5
 Size (xyz): 24x20x18
 ----------------------------------------
 
-                      anvil:   1
-                        bed:  10
-               birch stairs:  13
-               black carpet:   5
-                blue carpet:  11
-                  bookshelf:  21
-              brewing stand:   3
-                   cauldron:   3
-                      chest:  25
-        chiseled stonebrick:   5
-                cobblestone:  29
-             crafting table:   1
-              dark oak door:   8
-                       dirt: 100
-           enchanting table:   1
-                 flower pot:  16
-                    furnace:   1
-                 glass pane:  44
-               green carpet:  10
-                  iron bars:  38
-                    jukebox:   1
-        nether brick stairs:   1
-                  oak fence:  35
-                    oak log: 396
-                 oak planks: 138
-                 oak stairs:   4
-            oak wooden slab: 148
-              orange carpet:  20
-              purpur pillar:  20
-                 red carpet:  10
-                sea lantern:   1
-                      skull:   1
-  spruce double wooden slab:   4
-               spruce fence:  80
-              spruce planks: 162
-              spruce stairs: 520
-         spruce wooden slab:  96
-                      stone: 204
-               stone stairs:   4
-                      torch:  54
-                   trapdoor:  72
-                  wall sign:   8
-      wooden pressure plate:   2
+                  anvil:   1
+                    bed:  10
+           birch stairs:  13
+           black carpet:   5
+            blue carpet:  11
+              bookshelf:  21
+          brewing stand:   3
+               cauldron:   3
+                  chest:  25
+    chiseled stonebrick:   5
+            cobblestone:  29
+         crafting table:   1
+          dark oak door:   8
+                   dirt: 100
+       enchanting table:   1
+             flower pot:  16
+                furnace:   1
+             glass pane:  44
+           green carpet:  10
+              iron bars:  38
+                jukebox:   1
+    nether brick stairs:   1
+              oak fence:  35
+                oak log: 396
+             oak planks: 138
+             oak stairs:   4
+        oak wooden slab: 148
+          orange carpet:  20
+          purpur pillar:  20
+             red carpet:  10
+            sea lantern:   1
+                  skull:   1
+           spruce fence:  80
+          spruce planks: 162
+          spruce stairs: 520
+     spruce wooden slab: 104
+                  stone: 204
+           stone stairs:   4
+                  torch:  54
+               trapdoor:  72
+              wall sign:   8
+  wooden pressure plate:   2
 
 
