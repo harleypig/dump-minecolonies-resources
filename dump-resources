@@ -33,6 +33,9 @@ my $method_hash = {
   version  => sub { simple('version',  @_) },
   size     => sub { simple('size',     @_) },
 
+  dataversion      => sub { 1 },
+  forgedataversion => sub { 1 },
+
   blocks   => \&blocks,
   palette  => \&palette,
 
@@ -44,11 +47,12 @@ my $filename = shift or die "Must pass filename.\n";
 my $data     = read_file($filename);
 
 for my $el ( keys %$data ) {
+  my $method = lc $el;
 
   warn sprintf "unknown method key: %s\n", Dumper $data->{$el}
-    unless exists $method_hash->{$el};
+    unless exists $method_hash->{$method};
 
-  $method_hash->{$el}->($data->{$el});
+  $method_hash->{$method}->($data->{$el});
 
 }
 
@@ -80,10 +84,14 @@ sub blocks {
         $hut_info->{count}{$block->{$key}}++;
 
       } elsif ( $key eq 'nbt' ) {
-        die "multiple nbt's, don't know what to do"
-          if exists $hut_info->{hut_pos};
+        #die "multiple nbt's, don't know what to do"
+        #  if exists $hut_info->{hut_pos};
 
-        $hut_info->{hut_pos} = $block->{pos};
+        if ( exists $hut_info->{hut_pos} ) {
+          warn "multiple nbt's, not doing anything with this key";
+        } else {
+          $hut_info->{hut_pos} = $block->{pos};
+        }
 
       } else {
         warn "uknown key ($key) in blocks\n"
@@ -214,6 +222,7 @@ sub hut_resources {
   my @ignore = qw(
     minecraft:air
     minecolonies:blockSubstitution
+    minecolonies:blockSolidSubstitution
   );
 
   my $max_string_len = -1;
