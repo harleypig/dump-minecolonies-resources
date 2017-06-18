@@ -1,0 +1,17 @@
+#!/bin/bash
+
+BASE_DIR='mc.jar'
+SCHEMATICS_DIR="${BASE_DIR}/assets/minecolonies/schematics"
+RESOURCES_LIST_DIR='./resources.list'
+
+for f in $(find $SCHEMATICS_DIR -type f -iname '*\.nbt'); do
+  FILE=${f/$SCHEMATICS_DIR\//}
+  TYPE=$(dirname $FILE)
+  NAME=$(basename $FILE .nbt)
+  R_DIR="${RESOURCES_LIST_DIR}/${TYPE}"
+  R_FILE="${R_DIR}/${TYPE}_${NAME}.resources"
+
+  mkdir -p $R_DIR
+
+  ./dump-resources $f > $R_FILE
+done
