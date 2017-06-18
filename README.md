@@ -19,12 +19,12 @@ Nothing to install, except as noted above.
 # Use
 Unzip the jar file somewhere and then run `dump-resources` like so:
 
-    dump-resources /pathto/unzipped/jarfile/assets/minecolonies/schematics/default/Builder1.nbt
+    dump-resources /pathto/unzipped/jarfile/assets/minecolonies/schematics/stone/Builder1.nbt
 
 and you'll see something like this
 
 ```
-Builder1
+stone Builder1
 Size (xyz): 15x9x13
 ----------------------------------------
 
@@ -37,7 +37,7 @@ Size (xyz): 15x9x13
             torch: 12
 ```
 
-I've added a file called `full-list` that contains a dump of the entire default directory.
+I've added a directory that contains the output of all nbt files in the schematics directory. Look in 'resources.list'.
 
 ## Todos, maybe ...
 * Do I need to include the location of the hut block in the output?
