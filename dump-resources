@@ -88,7 +88,8 @@ sub blocks {
         #  if exists $hut_info->{hut_pos};
 
         if ( exists $hut_info->{hut_pos} ) {
-          warn "multiple nbt's, not doing anything with this key";
+          # Don't do anything with extra nbt's at all.
+          #warn "multiple nbt's, not doing anything with this key";
         } else {
           $hut_info->{hut_pos} = $block->{pos};
         }
@@ -190,7 +191,11 @@ sub dump_required_resources {
 
 }
 
-sub hut_name { basename($filename, '.nbt') }
+sub hut_name {
+  my ( $name, $path, $suffix ) = fileparse($filename, '.nbt');
+  $path =~ s{^.*/(\w*)/$}{$1};
+  return sprintf '%s %s', $path, $name;
+}
 
 sub hut_details {
   my ( $hut_info ) = @_;
@@ -201,16 +206,18 @@ sub hut_details {
   my $hut_size_len = length $hut_size_txt;
   my $hut_size_val = $join->($hut_info->{size});
 
-  my $hut_pos_txt = 'Hut Location (xyz):';
-  my $hut_pos_len = length $hut_pos_txt;
-  my $hut_pos_val = $join->($hut_info->{hut_pos});
+  #my $hut_pos_txt = 'Hut Location (xyz):';
+  #my $hut_pos_len = length $hut_pos_txt;
+  #my $hut_pos_val = $join->($hut_info->{hut_pos});
 
-  my $info_pad = $hut_size_len > $hut_pos_len ? $hut_size_len : $hut_pos_len;
+  #my $info_pad = $hut_size_len > $hut_pos_len ? $hut_size_len : $hut_pos_len;
+  my $info_pad = $hut_size_len;
 
   my $hut_size = sprintf "  %${info_pad}s %s", $hut_size_txt, $hut_size_val;
-  my $hut_pos  = sprintf "  %${info_pad}s %s", $hut_pos_txt,  $hut_pos_val;
+  #my $hut_pos  = sprintf "  %${info_pad}s %s", $hut_pos_txt,  $hut_pos_val;
 
-  return "$hut_size\n$hut_pos";
+  #return "$hut_size\n$hut_pos";
+  return $hut_size;
 
 }
 

@@ -13,5 +13,6 @@ for f in $(find $SCHEMATICS_DIR -type f -iname '*\.nbt'); do
 
   mkdir -p $R_DIR
 
+  printf '%s %s\n' $TYPE $NAME
   ./dump-resources $f > $R_FILE
 done
