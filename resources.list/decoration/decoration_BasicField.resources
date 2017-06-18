@@ -1,0 +1,13 @@
+BasicField
+
+          Size (xyz): 11 x  6 x 11
+  Hut Location (xyz):  5 x  1 x  5
+
+----------------------------------------
+
+  cobblestone: 40
+         dirt: 77
+   fence gate:  1
+    oak fence: 39
+        torch:  9
+        water:  4

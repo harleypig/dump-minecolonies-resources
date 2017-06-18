@@ -1,0 +1,13 @@
+Builder1
+
+          Size (xyz): 15 x  8 x 13
+  Hut Location (xyz): 10 x  1 x  4
+
+----------------------------------------
+
+                   cobblestone: 24
+  cobblestone cobblestone wall: 42
+        cobblestone stone slab: 32
+                          dirt: 63
+                       oak log:  3
+                         torch: 12
