@@ -4,15 +4,17 @@ BASE_DIR='mc.jar'
 SCHEMATICS_DIR="${BASE_DIR}/assets/minecolonies/schematics"
 RESOURCES_LIST_DIR='./resources.list'
 
-for f in $(find $SCHEMATICS_DIR -type f -iname '*\.nbt'); do
+schematics=($(find $SCHEMATICS_DIR -type f -iname '*\.nbt'))
+
+for f in "${schematics[@]}"; do
   FILE=${f/$SCHEMATICS_DIR\//}
-  TYPE=$(dirname $FILE)
-  NAME=$(basename $FILE .nbt)
+  TYPE=$(dirname "$FILE")
+  NAME=$(basename "$FILE" .nbt)
   R_DIR="${RESOURCES_LIST_DIR}/${TYPE}"
   R_FILE="${R_DIR}/${TYPE}_${NAME}.resources"
 
-  mkdir -p $R_DIR
+  mkdir -p "$R_DIR" || { echo "Can't mkdir $R_DIR" ; exit 1 ; }
 
-  printf '%s %s\n' $TYPE $NAME
-  ./dump-resources $f > $R_FILE
+  printf '%s %s\n' "$TYPE" "$NAME"
+  ./dump-resources "$f" > "$R_FILE"
 done
