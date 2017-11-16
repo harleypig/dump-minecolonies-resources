@@ -1,0 +1,37 @@
+wooden TownHall3
+
+  Size (xyz): 24 x 15 x 18
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                    bed:   2
+           birch stairs:   2
+           black carpet:   5
+              bookshelf:  12
+                  chest:  16
+            cobblestone:  39
+         crafting table:   1
+          dark oak door:   4
+                   dirt: 100
+                furnace:   1
+             glass pane:  40
+           green carpet:  10
+              oak fence:  38
+                oak log: 306
+             oak planks: 182
+             oak stairs: 276
+        oak wooden slab: 217
+           spruce fence:  52
+          spruce planks:  42
+          spruce stairs: 120
+                  stone: 214
+           stone stairs:   8
+                  torch:  57
+              wall sign:   4
+  wooden pressure plate:   2
+[/tbody][/table]

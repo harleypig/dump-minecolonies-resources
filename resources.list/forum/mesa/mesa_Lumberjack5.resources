@@ -1,0 +1,28 @@
+mesa Lumberjack5
+
+  Size (xyz):  9 x 10 x 18
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                      cauldron:  1
+                   cobblestone: 30
+                crafting table:  2
+                 dark oak door:  2
+                          dirt:  9
+                    flower pot:  6
+                    glass pane: 17
+                    gold block: 10
+                     oak fence:  4
+  orange stained hardened clay: 34
+          red sandstone stairs: 38
+     red stained hardened clay: 45
+                    stonebrick: 21
+                         torch: 22
+                         water: 17
+   white stained hardened clay: 10
+[/tbody][/table]

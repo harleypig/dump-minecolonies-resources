@@ -1,0 +1,48 @@
+Sandstone Builder4
+
+  Size (xyz): 12 x 16 x 14
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]              birch log:   2
+           birch planks:  59
+           birch stairs:   3
+      birch wooden slab:  82
+              blue wool:   1
+              bookshelf:   2
+               cauldron:   1
+                  chest:   2
+         crafting table:   2
+              cyan wool:   1
+                   dirt:   4
+             flower pot:   4
+                furnace:   4
+                  glass:   2
+             glass pane:   6
+                  grass:   2
+                 ladder:   5
+        light_blue wool:   1
+           nether brick:   2
+              oak fence:  35
+               obsidian:   2
+          orange carpet:  30
+           quartz block:   5
+          quartz stairs:   2
+             red carpet:   1
+               red sand:   5
+              sandstone: 204
+       sandstone stairs:  51
+   sandstone stone slab:   2
+  smooth andesite stone:   1
+   smooth diorite stone:   1
+   smooth granite stone:   1
+              soul sand:   2
+            spruce door:   6
+                  torch:  45
+               tripwire:  21
+[/tbody][/table]

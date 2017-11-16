@@ -1,0 +1,29 @@
+AlternativeWood Citizen1
+
+  Size (xyz): 14 x 15 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                     bed:  2
+                   chest:  2
+             cobblestone: 19
+  cobblestone stone slab:  9
+              glass pane:  3
+                  ladder:  5
+               oak fence: 11
+                 oak log: 56
+              oak planks: 44
+              oak stairs: 32
+         oak wooden slab: 19
+            stone stairs: 36
+                   torch: 10
+                trapdoor:  6
+              white wool:  4
+             wooden door:  2
+   wooden pressure plate:  2
+[/tbody][/table]

@@ -1,0 +1,16 @@
+wooden Pillar
+
+  Size (xyz):  3 x  5 x  3
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]   lit redstone lamp: 1
+      redstone torch: 1
+  stone brick stairs: 16
+          stonebrick: 3
+[/tbody][/table]

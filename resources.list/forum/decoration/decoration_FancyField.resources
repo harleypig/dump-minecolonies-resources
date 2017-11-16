@@ -1,0 +1,20 @@
+decoration FancyField
+
+  Size (xyz):  9 x  8 x  9
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]       dark oak fence: 31
+  dark oak fence gate:  1
+                 dirt: 37
+    lit redstone lamp:  1
+       redstone torch:  1
+           stonebrick: 32
+                torch:  8
+                water:  1
+[/tbody][/table]

@@ -1,0 +1,62 @@
+mesa TownHall5
+
+  Size (xyz): 32 x 25 x 29
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                           bed:  10
+             birch wooden slab:   1
+                   blue carpet:  12
+                     bookshelf:  30
+                         chest:  17
+         chiseled quartz block:   2
+           chiseled stonebrick:  14
+                   cobblestone:  35
+                   cyan carpet:  26
+                 dark oak door:  16
+                dark oak fence:  36
+      double fern double plant:  35
+              enchanting table:   1
+                    glass pane:  86
+                     glowstone:   4
+                    gold block:  12
+                         grass:  47
+                     iron bars:  42
+                       jukebox:   1
+                        ladder:  12
+                         lever:   8
+            nether brick fence: 108
+  orange stained hardened clay: 422
+                        piston:   3
+                   piston head:   8
+              powered repeater:   3
+                  quartz block: 175
+                 quartz stairs: 210
+             quartz stone slab:  37
+                    red flower:  12
+                 red sandstone: 635
+          red sandstone stairs: 393
+     red stained hardened clay: 360
+                redstone torch:   1
+                 redstone wire:  19
+                   sea lantern:   2
+                         skull:   1
+          smooth diorite stone: 137
+                   spruce door:   4
+               standing banner:   2
+                 sticky piston:   8
+                         stone:   6
+        sunflower double plant:  35
+                         torch: 238
+          unlit redstone torch:   3
+                   wall banner:  19
+                         water:  34
+           white stained glass:  40
+   white stained hardened clay: 505
+  yellow stained hardened clay: 209
+[/tbody][/table]

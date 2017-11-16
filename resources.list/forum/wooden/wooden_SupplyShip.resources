@@ -1,0 +1,33 @@
+wooden SupplyShip
+
+  Size (xyz): 17 x 30 x 32
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]              bed:   16
+        bookshelf:   11
+            chest:    4
+        dispenser:   12
+            glass:    9
+       glass pane:    4
+        glowstone:    2
+       gold block:    4
+           ladder:   44
+        oak fence:  104
+          oak log:   36
+       oak planks:  454
+       oak stairs:   98
+  oak wooden slab:    8
+         red wool:   83
+       spruce log:  112
+     stone button:   28
+     stone stairs:   24
+            torch:   43
+            water: 1515
+       white wool:   73
+[/tbody][/table]

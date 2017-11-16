@@ -1,0 +1,23 @@
+Sandstone Lumberjack2
+
+  Size (xyz): 21 x 12 x 18
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]          birch log:  6
+       birch planks:  1
+  birch wooden slab: 20
+     crafting table:  1
+              grass: 75
+          oak fence: 38
+            oak log:  4
+          sandstone: 70
+   sandstone stairs: 10
+              torch: 27
+              water:  4
+[/tbody][/table]

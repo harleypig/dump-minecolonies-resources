@@ -1,0 +1,33 @@
+stone Miner4
+
+  Size (xyz): 11 x 11 x 16
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                  black carpet:   4
+                   cobblestone: 131
+  cobblestone cobblestone wall:  29
+                crafting table:   1
+                          dirt:   4
+                       furnace:   3
+                         glass:   9
+                    glass pane:   4
+                  green carpet:   8
+                        ladder:   3
+                     oak fence:   2
+                redstone block:   1
+                   spruce door:   4
+                  spruce fence:  10
+                         stone:  48
+            stone brick stairs: 104
+        stone brick stone slab:  45
+                  stone stairs:   2
+                    stonebrick:  23
+                         torch:  13
+                      trapdoor:   8
+[/tbody][/table]

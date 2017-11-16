@@ -1,0 +1,33 @@
+wooden WareHouse5
+
+  Size (xyz): 16 x 14 x 23
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                  chest:  86
+            cobblestone:  18
+         dark oak fence:   8
+            ender chest:   1
+              glowstone:   6
+            gray carpet: 134
+              iron bars: 124
+                 ladder:  12
+              oak fence:  35
+                oak log: 230
+             oak planks: 489
+             oak stairs:   8
+        oak wooden slab: 148
+  smooth andesite stone:   2
+            spruce door:   8
+           spruce fence:  22
+          spruce planks: 125
+          spruce stairs: 284
+     spruce wooden slab: 302
+           stone button:   2
+                  torch:  28
+[/tbody][/table]

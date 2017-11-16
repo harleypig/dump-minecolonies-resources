@@ -1,0 +1,34 @@
+wooden Miner5
+
+  Size (xyz): 11 x 12 x 16
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]    black carpet:   4
+     cobblestone:  24
+  crafting table:   1
+   dark oak door:   4
+            dirt:   4
+   emerald block:   1
+         furnace:   3
+           glass:   9
+      glass pane:   4
+    green carpet:   8
+          ladder:   3
+       oak fence:  59
+         oak log:  66
+      oak planks: 103
+      oak stairs:   2
+    spruce fence:  20
+   spruce planks:  87
+   spruce stairs: 160
+           stone:  27
+      stonebrick:   4
+           torch:  15
+        trapdoor:   8
+[/tbody][/table]

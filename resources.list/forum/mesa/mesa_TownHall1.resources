@@ -1,0 +1,22 @@
+mesa TownHall1
+
+  Size (xyz): 32 x 20 x 29
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone:  35
+                    glass pane:  76
+                    oak stairs:   1
+  orange stained hardened clay: 253
+                 red sandstone: 190
+          red sandstone stairs: 173
+     red stained hardened clay:   2
+                         torch:  60
+   white stained hardened clay: 308
+                   wooden door:   2
+[/tbody][/table]

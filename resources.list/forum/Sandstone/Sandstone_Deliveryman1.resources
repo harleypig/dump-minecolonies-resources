@@ -1,0 +1,18 @@
+Sandstone Deliveryman1
+
+  Size (xyz): 11 x  9 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]        gravel: 40
+     oak fence: 24
+     sandstone:  9
+         torch:  4
+      tripwire: 21
+  white carpet: 25
+[/tbody][/table]

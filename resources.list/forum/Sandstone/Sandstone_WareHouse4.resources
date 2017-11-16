@@ -1,0 +1,31 @@
+Sandstone WareHouse4
+
+  Size (xyz): 19 x 21 x 17
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]              birch planks: 222
+              birch stairs:  39
+         birch wooden slab:  20
+                    cactus:   6
+                     chest:  82
+             dark oak door:   2
+      dark oak wooden slab:  22
+  double fern double plant:   2
+                glass pane:  24
+                 glowstone:   2
+                     grass:   2
+                 oak fence:  46
+                  red wool: 180
+                      sand:   2
+                 sandstone: 623
+          sandstone stairs: 140
+    sunflower double plant:   2
+                     torch:  65
+               wooden door:   8
+[/tbody][/table]

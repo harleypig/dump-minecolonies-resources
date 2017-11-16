@@ -1,0 +1,33 @@
+AlternativeWood Citizen5
+
+  Size (xyz): 14 x 15 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                                 bed:  14
+                               chest:  10
+                         cobblestone:   8
+                      crafting table:   1
+                                dirt:   2
+                          flower pot:   9
+                          glass pane:  31
+  minecolonies:blockConstructionTape:   1
+                           oak fence:   3
+                             oak log: 146
+                          oak planks: 146
+                          oak stairs: 123
+                     oak wooden slab:  49
+                          red flower:   2
+                         spruce door:   2
+                        stone stairs:  96
+                          stonebrick:  64
+                               torch:  28
+                            trapdoor:  29
+                          white wool:  84
+                         wooden door:  10
+[/tbody][/table]

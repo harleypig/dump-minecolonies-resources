@@ -1,0 +1,28 @@
+mesa Miner3
+
+  Size (xyz): 11 x 11 x 16
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone: 18
+  cobblestone cobblestone wall: 72
+                crafting table:  2
+                       furnace:  2
+                         glass:  4
+                    gold block:  1
+                   gray carpet: 10
+                 hardened clay: 15
+                        ladder:  3
+  orange stained hardened clay: 22
+          red sandstone stairs: 10
+     red stained hardened clay: 37
+                redstone block:  1
+                   spruce door:  6
+                         torch: 31
+   white stained hardened clay: 51
+[/tbody][/table]

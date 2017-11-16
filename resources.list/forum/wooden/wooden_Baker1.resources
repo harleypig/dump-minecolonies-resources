@@ -1,0 +1,19 @@
+wooden Baker1
+
+  Size (xyz): 14 x 11 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone: 25
+  cobblestone cobblestone wall:  2
+                       furnace:  1
+                     oak fence: 16
+                       oak log: 28
+                  stone stairs: 16
+                         torch:  4
+[/tbody][/table]

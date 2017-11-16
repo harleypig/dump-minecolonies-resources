@@ -1,0 +1,22 @@
+Sandstone Miner1
+
+  Size (xyz): 17 x 10 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]       birch planks: 31
+       birch stairs:  2
+  birch wooden slab: 10
+        cobblestone:  3
+             ladder:  3
+          oak fence: 41
+         oak planks: 16
+          sandstone: 82
+   sandstone stairs: 24
+              torch: 24
+[/tbody][/table]

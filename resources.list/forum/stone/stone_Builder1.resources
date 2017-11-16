@@ -1,0 +1,18 @@
+stone Builder1
+
+  Size (xyz): 15 x  8 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone: 24
+  cobblestone cobblestone wall: 42
+        cobblestone stone slab: 32
+                          dirt: 63
+                       oak log:  3
+                         torch: 12
+[/tbody][/table]

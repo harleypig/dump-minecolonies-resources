@@ -1,0 +1,20 @@
+stone Fisherman1
+
+  Size (xyz): 11 x  7 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone:  8
+  cobblestone cobblestone wall:  8
+        cobblestone stone slab: 12
+                    oak stairs:  2
+               oak wooden slab:  3
+                  stone stairs: 18
+                         torch:  8
+                      trapdoor:  6
+[/tbody][/table]

@@ -1,0 +1,13 @@
+waypoints NicePath
+
+  Size (xyz): 10 x  1 x  2
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]  stonebrick: 20
+[/tbody][/table]

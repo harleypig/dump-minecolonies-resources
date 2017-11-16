@@ -1,0 +1,19 @@
+wooden Lumberjack2
+
+  Size (xyz): 11 x 10 x 14
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]      cobblestone: 19
+   crafting table:  1
+        oak fence: 44
+          oak log:  5
+       oak planks: 18
+  oak wooden slab: 49
+            torch: 12
+[/tbody][/table]

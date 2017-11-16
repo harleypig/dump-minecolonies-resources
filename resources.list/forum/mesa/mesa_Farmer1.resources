@@ -1,0 +1,16 @@
+mesa Farmer1
+
+  Size (xyz): 11 x  8 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                     hay block:  4
+  orange stained hardened clay:  4
+                         torch: 13
+   white stained hardened clay:  9
+[/tbody][/table]

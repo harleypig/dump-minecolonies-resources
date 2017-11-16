@@ -1,0 +1,34 @@
+schematics SupplyCamp
+
+  Size (xyz): 16 x 12 x 17
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                     bed:   2
+               bookshelf:   6
+                   chest:   5
+              coal block:   1
+             cobblestone:   4
+  cobblestone stone slab:   4
+                    fire:   1
+                 furnace:   1
+              gold block:   3
+              green wool:  46
+               hay block:   4
+                  ladder:  12
+              netherrack:   1
+               oak fence: 130
+                 oak log:  20
+              oak planks:   4
+              oak stairs:  15
+                red wool:  38
+              spruce log:  15
+                   torch:  23
+                trapdoor:   3
+              white wool:  67
+[/tbody][/table]

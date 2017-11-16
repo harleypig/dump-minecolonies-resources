@@ -1,0 +1,24 @@
+wooden WareHouse2
+
+  Size (xyz): 16 x 14 x 23
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]               chest:  32
+         cobblestone:  24
+         gray carpet:  25
+           oak fence:  62
+             oak log: 168
+          oak planks: 435
+          oak stairs:   8
+         spruce door:   8
+       spruce planks:  61
+       spruce stairs: 228
+  spruce wooden slab: 218
+               torch:  30
+[/tbody][/table]

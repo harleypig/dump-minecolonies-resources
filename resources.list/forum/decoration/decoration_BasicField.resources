@@ -1,0 +1,18 @@
+decoration BasicField
+
+  Size (xyz): 11 x  6 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]  cobblestone: 40
+         dirt: 77
+   fence gate:  1
+    oak fence: 39
+        torch:  9
+        water:  4
+[/tbody][/table]

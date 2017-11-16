@@ -1,0 +1,19 @@
+wooden GuardTower1
+
+  Size (xyz):  9 x 18 x  9
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]           ladder: 10
+        oak fence: 29
+          oak log: 12
+       oak planks: 18
+       oak stairs: 27
+  oak wooden slab: 33
+            torch: 14
+[/tbody][/table]

@@ -1,0 +1,33 @@
+Sandstone Citizen4
+
+  Size (xyz): 11 x 18 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]               bed:   4
+      birch planks:  75
+      birch stairs:  12
+         bookshelf:   2
+    crafting table:   1
+        flower pot:   8
+           furnace:   1
+        glass pane:  13
+      green carpet:  25
+            hopper:   1
+            ladder:   4
+         oak fence:   8
+     orange carpet:   1
+         sandstone: 240
+  sandstone stairs:  16
+       spruce door:   6
+      spruce fence:  11
+     spruce stairs:   1
+             torch:  29
+          tripwire:  19
+      white carpet:   1
+[/tbody][/table]

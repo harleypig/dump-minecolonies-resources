@@ -1,0 +1,64 @@
+wooden Builder5
+
+  Size (xyz): 15 x  9 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                    acacia log:   2
+                     birch log:   2
+                  black carpet:   2
+   black stained hardened clay:   1
+                    black wool:   1
+    blue stained hardened clay:   1
+                   brick block:   1
+                    brown wool:   1
+                         chest:   2
+           chiseled stonebrick:   3
+                   coarse dirt:  27
+                   cobblestone: 101
+            cracked stonebrick:   2
+                crafting table:   1
+                  dark oak log:   2
+               dark prismarine:   1
+                       furnace:   1
+                         glass:   3
+                    glass pane:  12
+                     glowstone:   1
+                     gray wool:   1
+                    green wool:   1
+                    jungle log:   2
+             mossy cobblestone:   2
+              mossy stonebrick:   3
+                  nether brick:   4
+                     oak fence:  32
+                       oak log:  30
+                    oak planks: 138
+                    oak stairs:  28
+                      obsidian:   2
+  orange stained hardened clay:   1
+    pink stained hardened clay:   1
+                   podzol dirt:   4
+                    prismarine:   1
+                  purpur block:   1
+                 purpur pillar:   2
+                  quartz block:   4
+              red nether brick:   3
+                     sandstone:   2
+         smooth andesite stone:   1
+          smooth diorite stone:   2
+          smooth granite stone:   2
+                     soul sand:   3
+                   spruce door:   4
+                    spruce log:   2
+                 spruce stairs:  68
+            spruce wooden slab:  36
+                         stone:   1
+                         torch:  12
+                      trapdoor:  12
+                    white wool:   1
+[/tbody][/table]

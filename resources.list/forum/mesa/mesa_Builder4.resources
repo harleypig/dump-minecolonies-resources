@@ -1,0 +1,42 @@
+mesa Builder4
+
+  Size (xyz): 12 x  8 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                    acacia log:  1
+                     birch log:  1
+                    black wool:  1
+                     blue wool:  1
+                         chest:  1
+                crafting table:  1
+                 dark oak door:  2
+                  dark oak log:  1
+                       furnace:  1
+                         glass: 16
+                    glass pane: 10
+                     glowstone:  3
+                    gold block:  3
+                     gray wool:  1
+                 hardened clay: 69
+                    jungle log:  1
+                  nether brick:  3
+                       oak log:  1
+  orange stained hardened clay: 28
+                  quartz block:  5
+     red stained hardened clay:  4
+  silver stained hardened clay:  4
+         smooth andesite stone:  5
+          smooth diorite stone: 30
+          smooth granite stone:  8
+                    spruce log:  1
+                         torch: 32
+   white stained hardened clay:  4
+                    white wool:  3
+  yellow stained hardened clay:  4
+[/tbody][/table]

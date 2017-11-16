@@ -1,0 +1,19 @@
+wooden Builder1
+
+  Size (xyz): 15 x  9 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]      cobblestone: 11
+             dirt: 63
+        oak fence: 42
+          oak log:  3
+       oak planks: 13
+  oak wooden slab: 32
+            torch: 12
+[/tbody][/table]

@@ -1,0 +1,19 @@
+mesa Deliveryman2
+
+  Size (xyz): 11 x  9 x  9
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone: 22
+                         glass:  9
+                 hardened clay: 24
+  orange stained hardened clay: 12
+          red sandstone stairs: 12
+     red stained hardened clay: 40
+                         torch: 19
+[/tbody][/table]

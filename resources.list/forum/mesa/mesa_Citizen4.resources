@@ -1,0 +1,34 @@
+mesa Citizen4
+
+  Size (xyz): 12 x 16 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                           bed:  8
+                   cobblestone: 21
+                crafting table:  2
+                 dark oak door:  4
+                    flower pot: 22
+                       furnace:  2
+                    glass pane: 17
+                    gold block:  6
+                   gray carpet:  4
+                 hardened clay: 60
+  orange stained hardened clay: 67
+                    red carpet:  4
+                 red sandstone: 10
+          red sandstone stairs: 63
+     red sandstone stone slab2: 18
+     red stained hardened clay: 77
+                  stone button: 12
+                         torch: 38
+                         water:  1
+                  white carpet:  8
+   white stained hardened clay:  9
+  yellow stained hardened clay: 27
+[/tbody][/table]

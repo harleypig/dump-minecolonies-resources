@@ -1,0 +1,34 @@
+Sandstone Builder2
+
+  Size (xyz): 12 x 14 x 14
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]        andesite stone:  1
+             birch log:  2
+          birch planks: 38
+          birch stairs:  1
+     birch wooden slab:  3
+                 chest:  1
+        crafting table:  2
+         diorite stone:  1
+               furnace:  1
+                 glass:  1
+            glass pane:  3
+                ladder:  7
+             oak fence: 38
+               oak log:  2
+         orange carpet: 19
+           orange wool:  2
+             sandstone: 123
+      sandstone stairs: 13
+  sandstone stone slab:  1
+                 torch: 22
+              tripwire: 10
+           wooden door:  8
+[/tbody][/table]

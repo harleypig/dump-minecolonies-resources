@@ -1,0 +1,24 @@
+AlternativeStone Citizen1
+
+  Size (xyz): 14 x 15 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                           bed:  2
+                         chest:  1
+                   cobblestone: 92
+  cobblestone cobblestone wall:  6
+        cobblestone stone slab:  5
+                    glass pane:  8
+                     oak fence:  9
+                    oak stairs:  4
+                  stone stairs: 40
+                         torch: 16
+                   wooden door:  2
+         wooden pressure plate:  3
+[/tbody][/table]

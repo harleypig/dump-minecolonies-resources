@@ -1,0 +1,23 @@
+mesa Baker2
+
+  Size (xyz):  9 x 13 x  9
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone: 14
+  cobblestone cobblestone wall:  9
+                       furnace:  2
+                 hardened clay: 25
+                       oak log:  3
+  orange stained hardened clay: 12
+          red sandstone stairs: 25
+     red stained hardened clay: 20
+                  stone button:  8
+                         torch: 12
+   white stained hardened clay:  2
+[/tbody][/table]

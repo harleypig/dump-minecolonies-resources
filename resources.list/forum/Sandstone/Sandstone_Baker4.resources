@@ -1,0 +1,33 @@
+Sandstone Baker4
+
+  Size (xyz): 12 x 18 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   bed:   2
+           birch fence:  13
+             birch log:  27
+                 chest:   3
+        crafting table:   1
+            flower pot:   1
+               furnace:   4
+            glass pane:  13
+             hay block:   6
+                ladder:   5
+            oak planks:  40
+  red sandstone stairs:   1
+             sandstone: 351
+      sandstone stairs:  12
+  sandstone stone slab:  20
+           spruce door:   2
+                 torch:  29
+              trapdoor:  36
+              tripwire:  21
+          white carpet:  49
+         wooden button:   6
+[/tbody][/table]

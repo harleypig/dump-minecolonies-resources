@@ -1,0 +1,22 @@
+wooden Deliveryman2
+
+  Size (xyz): 11 x 10 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]    cobblestone:  43
+     glass pane:  14
+        oak log:  32
+     oak planks: 147
+     oak stairs:  20
+   spruce fence:   4
+  spruce planks:  11
+  spruce stairs:  95
+          torch:   9
+    wooden door:   2
+[/tbody][/table]

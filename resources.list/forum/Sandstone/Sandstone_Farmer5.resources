@@ -1,0 +1,36 @@
+Sandstone Farmer5
+
+  Size (xyz): 18 x 12 x 19
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                birch planks:  44
+                birch stairs:  14
+           birch wooden slab:   4
+                       chest:   6
+              crafting table:   1
+  daylight detector inverted:   4
+                        dirt: 112
+                  flower pot:   2
+                  glass pane:   6
+                      ladder:  12
+                 lime carpet:  24
+                 melon block:   1
+                   oak fence:  64
+                     pumpkin:   1
+               redstone lamp:   2
+               redstone wire:   2
+                   sandstone: 284
+            sandstone stairs:  25
+                 spruce door:   4
+               sticky piston:   2
+                       torch:  29
+                    trapdoor:   5
+                    tripwire:  16
+                       water:  38
+[/tbody][/table]

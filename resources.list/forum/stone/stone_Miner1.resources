@@ -1,0 +1,18 @@
+stone Miner1
+
+  Size (xyz): 11 x  9 x 16
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone: 48
+  cobblestone cobblestone wall: 32
+        cobblestone stone slab: 36
+                        ladder:  3
+                  stone stairs: 18
+                         torch:  9
+[/tbody][/table]

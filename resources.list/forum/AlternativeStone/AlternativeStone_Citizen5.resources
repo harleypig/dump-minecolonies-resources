@@ -1,0 +1,34 @@
+AlternativeStone Citizen5
+
+  Size (xyz): 14 x 15 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                                 bed:  10
+                               chest:  10
+                 chiseled stonebrick:  12
+                         cobblestone:  25
+        cobblestone cobblestone wall:  12
+                      crafting table:   3
+                       dark oak door:   8
+                          flower pot:   7
+                             furnace:   5
+                               glass:   2
+                          glass pane:  74
+                         gray carpet:  14
+                           gray wool:  17
+  minecolonies:blockConstructionTape:   6
+                           oak fence:   2
+                               stone: 182
+                  stone brick stairs: 279
+              stone brick stone slab:  69
+                          stonebrick: 170
+                               torch:  41
+                         wooden door:   4
+               wooden pressure plate:   2
+[/tbody][/table]

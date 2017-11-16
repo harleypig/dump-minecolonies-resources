@@ -1,0 +1,27 @@
+stone Fisherman4
+
+  Size (xyz): 11 x  9 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                         chest:  2
+                   coarse dirt: 36
+                   cobblestone: 84
+  cobblestone cobblestone wall: 16
+                crafting table:  1
+                    glass pane:  2
+                   spruce door:  2
+                  spruce fence: 10
+                 spruce stairs:  2
+            spruce wooden slab:  3
+                         stone: 53
+            stone brick stairs: 91
+                    stonebrick: 38
+                         torch: 14
+                      trapdoor:  6
+[/tbody][/table]

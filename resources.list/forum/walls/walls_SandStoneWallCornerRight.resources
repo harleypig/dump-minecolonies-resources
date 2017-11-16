@@ -1,0 +1,17 @@
+walls SandStoneWallCornerRight
+
+  Size (xyz):  4 x  8 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]           birch fence:  5
+             sandstone: 54
+      sandstone stairs: 38
+  sandstone stone slab:  6
+                 torch:  3
+[/tbody][/table]

@@ -1,0 +1,19 @@
+walls DarkOakWallStair
+
+  Size (xyz):  8 x  7 x  5
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]           coarse dirt: 30
+        dark oak fence: 19
+          dark oak log: 28
+       dark oak planks:  2
+       dark oak stairs: 34
+  dark oak wooden slab:  7
+                 torch:  6
+[/tbody][/table]

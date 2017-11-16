@@ -1,0 +1,23 @@
+wooden Farmer3
+
+  Size (xyz): 11 x 10 x 15
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]            cauldron:   1
+         coarse dirt: 111
+         cobblestone:   8
+           hay block:  15
+           oak fence:  56
+             oak log:  58
+        spruce fence:  12
+       spruce planks:  40
+       spruce stairs:  80
+  spruce wooden slab:  77
+               torch:  16
+[/tbody][/table]

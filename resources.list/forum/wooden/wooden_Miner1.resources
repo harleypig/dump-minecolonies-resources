@@ -1,0 +1,19 @@
+wooden Miner1
+
+  Size (xyz): 11 x 12 x 16
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]      cobblestone:  2
+           ladder:  3
+        oak fence: 32
+       oak planks: 46
+       oak stairs: 18
+  oak wooden slab: 36
+            torch:  9
+[/tbody][/table]

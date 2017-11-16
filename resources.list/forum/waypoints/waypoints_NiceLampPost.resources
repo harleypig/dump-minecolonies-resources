@@ -1,0 +1,14 @@
+waypoints NiceLampPost
+
+  Size (xyz):  3 x  7 x  1
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]  dark oak fence: 8
+       glowstone: 2
+[/tbody][/table]

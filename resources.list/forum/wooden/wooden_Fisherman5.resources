@@ -1,0 +1,29 @@
+wooden Fisherman5
+
+  Size (xyz): 11 x  9 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]               chest:  2
+         coarse dirt: 36
+         cobblestone: 54
+      crafting table:  1
+          flower pot:  1
+          glass pane:  2
+           oak fence:  5
+             oak log: 59
+          oak planks: 64
+          oak stairs:  1
+         spruce door:  2
+        spruce fence: 24
+       spruce planks: 37
+       spruce stairs: 101
+  spruce wooden slab:  3
+               torch: 13
+            trapdoor: 10
+[/tbody][/table]

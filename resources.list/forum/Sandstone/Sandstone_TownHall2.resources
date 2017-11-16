@@ -1,0 +1,26 @@
+Sandstone TownHall2
+
+  Size (xyz): 35 x 11 x 36
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                bed:   4
+       birch planks: 597
+       birch stairs:  35
+  birch wooden slab: 127
+              chest:  10
+     crafting table:   1
+         glass pane:  18
+          oak fence: 107
+      orange carpet:  78
+          sandstone: 951
+   sandstone stairs: 180
+              torch: 112
+           tripwire:  42
+        wooden door:  12
+[/tbody][/table]

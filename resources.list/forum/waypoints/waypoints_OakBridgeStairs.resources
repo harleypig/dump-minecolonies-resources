@@ -1,0 +1,17 @@
+waypoints OakBridgeStairs
+
+  Size (xyz):  4 x  7 x  6
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]   oak fence: 20
+     oak log: 18
+  oak planks:  6
+  oak stairs: 18
+       torch:  4
+[/tbody][/table]

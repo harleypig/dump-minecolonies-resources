@@ -1,0 +1,31 @@
+wooden Citizen3
+
+  Size (xyz): 13 x 18 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]              bed:   4
+     black carpet:   6
+            chest:   1
+      cobblestone:  92
+   crafting table:   1
+          furnace:   1
+       glass pane:  40
+        oak fence:   8
+          oak log:  70
+       oak planks: 298
+       oak stairs: 125
+  oak wooden slab:  55
+       red carpet:   8
+     spruce fence:   4
+    spruce stairs:  77
+     stone button:   7
+            torch:  12
+       white wool:   4
+      wooden door:   4
+[/tbody][/table]

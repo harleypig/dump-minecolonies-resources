@@ -1,0 +1,33 @@
+wooden Deliveryman5
+
+  Size (xyz): 11 x 10 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]             bed:   2
+    black carpet:   5
+       bookshelf:   2
+           chest:   2
+     cobblestone:   8
+  crafting table:   1
+   dark oak door:   2
+       dispenser:   1
+      flower pot:   7
+         furnace:   1
+      glass pane:  14
+    green carpet:  23
+         oak log:  32
+      oak planks: 140
+      oak stairs:  27
+    spruce fence:  15
+   spruce planks:  11
+   spruce stairs: 102
+           stone:  37
+           torch:   9
+        trapdoor:  20
+[/tbody][/table]

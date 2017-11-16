@@ -1,0 +1,28 @@
+wooden Miner3
+
+  Size (xyz): 11 x 12 x 16
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]       coal block:   1
+      cobblestone:  52
+   crafting table:   1
+             dirt:   4
+          furnace:   3
+            glass:   9
+       glass pane:   4
+     green carpet:   8
+           ladder:   3
+        oak fence:  36
+          oak log:  24
+       oak planks: 126
+       oak stairs: 106
+  oak wooden slab:  52
+            torch:  15
+      wooden door:   4
+[/tbody][/table]

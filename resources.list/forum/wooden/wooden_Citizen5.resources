@@ -1,0 +1,38 @@
+wooden Citizen5
+
+  Size (xyz): 13 x 16 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]        acacia stairs:   3
+                  bed:   4
+         black carpet:   6
+                chest:   3
+  chiseled stonebrick:   1
+          cobblestone: 107
+       crafting table:   1
+        dark oak door:   6
+           flower pot:  19
+              furnace:   1
+           glass pane:  36
+          gray carpet:   1
+    light_blue carpet:  14
+            oak fence:  12
+              oak log: 102
+           oak planks: 257
+           oak stairs: 136
+      oak wooden slab:  67
+           red carpet:   8
+         spruce fence:  12
+        spruce stairs:  96
+   spruce wooden slab:   2
+         stone button:   8
+                torch:  16
+             trapdoor:  36
+           white wool:   3
+[/tbody][/table]

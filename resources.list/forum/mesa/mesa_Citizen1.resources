@@ -1,0 +1,20 @@
+mesa Citizen1
+
+  Size (xyz): 12 x 12 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                           bed:  2
+                   cobblestone: 22
+                 hardened clay: 24
+  orange stained hardened clay: 61
+     red stained hardened clay: 20
+                         torch: 14
+   white stained hardened clay:  9
+                   wooden door:  2
+[/tbody][/table]

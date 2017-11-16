@@ -1,0 +1,18 @@
+wooden Fisherman1
+
+  Size (xyz): 11 x 10 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]        oak fence: 11
+       oak planks:  6
+       oak stairs:  7
+  oak wooden slab: 31
+            torch:  6
+         trapdoor:  6
+[/tbody][/table]

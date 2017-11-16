@@ -1,0 +1,19 @@
+walls OakWallGate
+
+  Size (xyz): 13 x 10 x  7
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]          oak log: 34
+       oak planks: 57
+       oak stairs: 34
+  oak wooden slab:  8
+      spruce door:  4
+            torch: 18
+            water: 39
+[/tbody][/table]

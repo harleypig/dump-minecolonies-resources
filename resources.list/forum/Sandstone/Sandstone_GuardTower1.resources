@@ -1,0 +1,20 @@
+Sandstone GuardTower1
+
+  Size (xyz):  9 x 16 x  8
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]       birch planks: 16
+       birch stairs:  9
+  birch wooden slab: 31
+          oak fence: 16
+          sandstone: 113
+   sandstone stairs:  1
+              torch: 17
+        wooden door:  2
+[/tbody][/table]

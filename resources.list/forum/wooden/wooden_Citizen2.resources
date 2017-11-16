@@ -1,0 +1,26 @@
+wooden Citizen2
+
+  Size (xyz): 13 x 18 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]      cobblestone:  92
+   crafting table:   1
+          furnace:   1
+       glass pane:  20
+        oak fence:   3
+          oak log:  39
+       oak planks: 141
+       oak stairs: 112
+  oak wooden slab:  30
+     spruce fence:   4
+    spruce stairs:  62
+            torch:  10
+       white wool:   4
+      wooden door:   4
+[/tbody][/table]

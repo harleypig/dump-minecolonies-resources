@@ -1,0 +1,29 @@
+Sandstone Fisherman4
+
+  Size (xyz): 21 x 13 x 16
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]          birch planks:  88
+          birch stairs:  32
+     birch wooden slab:  36
+              cauldron:   3
+                 chest:   4
+        crafting table:   4
+            glass pane:   2
+                ladder:   4
+             oak fence:  45
+             sandstone: 167
+      sandstone stairs:  11
+  sandstone stone slab:   4
+                 torch:  33
+              tripwire:  11
+                 water: 250
+          white carpet:  29
+           wooden door:  10
+[/tbody][/table]

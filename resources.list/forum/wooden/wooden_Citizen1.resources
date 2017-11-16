@@ -1,0 +1,20 @@
+wooden Citizen1
+
+  Size (xyz): 13 x 18 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]      cobblestone:  40
+        oak fence:  10
+          oak log:  39
+       oak planks: 193
+       oak stairs: 170
+  oak wooden slab:  40
+            torch:   9
+      wooden door:   4
+[/tbody][/table]

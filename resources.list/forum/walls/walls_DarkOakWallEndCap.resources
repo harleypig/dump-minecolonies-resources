@@ -1,0 +1,17 @@
+walls DarkOakWallEndCap
+
+  Size (xyz):  1 x  7 x  5
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]      coarse dirt:  4
+   dark oak fence:  1
+     dark oak log: 12
+  dark oak planks:  2
+            torch:  3
+[/tbody][/table]

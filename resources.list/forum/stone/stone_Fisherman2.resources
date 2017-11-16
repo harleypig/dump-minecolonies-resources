@@ -1,0 +1,22 @@
+stone Fisherman2
+
+  Size (xyz): 11 x  8 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                    cobblestone: 28
+   cobblestone cobblestone wall: 36
+  cobblestone double stone slab:  1
+         cobblestone stone slab: 48
+                 crafting table:  1
+                     fence gate:  1
+                     oak stairs:  2
+                oak wooden slab:  3
+                          torch: 10
+                       trapdoor:  6
+[/tbody][/table]

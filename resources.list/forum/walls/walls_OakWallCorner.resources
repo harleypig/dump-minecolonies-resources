@@ -1,0 +1,17 @@
+walls OakWallCorner
+
+  Size (xyz):  9 x 10 x  8
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]     oak log: 14
+  oak planks: 30
+  oak stairs: 23
+       torch:  8
+       water: 36
+[/tbody][/table]

@@ -1,0 +1,21 @@
+walls StoneWallStraight
+
+  Size (xyz):  6 x  8 x  6
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                   cobblestone: 22
+  cobblestone cobblestone wall:  6
+        cobblestone stone slab: 10
+                  spruce fence:  6
+                    spruce log: 12
+            stone brick stairs:  6
+                  stone stairs: 12
+                    stonebrick: 32
+                         torch:  6
+[/tbody][/table]

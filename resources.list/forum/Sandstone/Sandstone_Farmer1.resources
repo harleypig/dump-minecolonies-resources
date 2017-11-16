@@ -1,0 +1,21 @@
+Sandstone Farmer1
+
+  Size (xyz): 18 x 12 x 19
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]       birch planks: 32
+  birch wooden slab:  8
+               dirt: 30
+          hay block:  3
+          oak fence: 21
+          sandstone: 16
+   sandstone stairs: 24
+              torch: 13
+              water:  5
+[/tbody][/table]

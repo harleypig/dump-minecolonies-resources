@@ -1,0 +1,30 @@
+wooden Lumberjack5
+
+  Size (xyz): 10 x 10 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]             coarse dirt:  30
+             cobblestone:  62
+  cobblestone stone slab:   3
+          crafting table:   1
+              flower pot:   9
+              glass pane:   6
+               iron bars:   8
+               oak fence:  12
+                 oak log:  43
+              oak planks: 129
+              oak stairs:  31
+         oak wooden slab:  10
+             spruce door:   2
+            spruce fence:   4
+           spruce stairs:  87
+      spruce wooden slab:  37
+                   torch:  14
+                trapdoor:  12
+[/tbody][/table]

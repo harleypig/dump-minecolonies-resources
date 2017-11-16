@@ -1,0 +1,46 @@
+stone Builder3
+
+  Size (xyz): 15 x  9 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                    acacia log:   2
+                 acacia planks:   1
+                     birch log:   2
+                  birch planks:   2
+                    black wool:   1
+                   brick block:   1
+                    brown wool:   1
+                   coarse dirt:  26
+                   cobblestone: 182
+  cobblestone cobblestone wall:  40
+        cobblestone stone slab:  24
+                crafting table:   1
+                  dark oak log:   2
+               dark oak planks:   3
+                       furnace:   1
+                         glass:   3
+                    glass pane:  12
+                     gray wool:   1
+                    green wool:   1
+                    jungle log:   2
+                 jungle planks:   1
+             mossy cobblestone:   2
+                       oak log:   1
+         smooth andesite stone:   1
+          smooth diorite stone:   2
+          smooth granite stone:   2
+                    spruce log:   2
+                         stone:   4
+            stone brick stairs:  48
+        stone brick stone slab:  16
+                  stone stairs:  12
+                    stonebrick:  17
+                         torch:  13
+                    white wool:   1
+[/tbody][/table]

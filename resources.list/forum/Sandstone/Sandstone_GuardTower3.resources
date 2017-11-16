@@ -1,0 +1,21 @@
+Sandstone GuardTower3
+
+  Size (xyz):  9 x 26 x  8
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]               bed:   1
+      birch planks:  23
+      birch stairs:  17
+         oak fence:  21
+          red wool:  59
+         sandstone: 218
+  sandstone stairs:  23
+       spruce door:   2
+             torch:  42
+[/tbody][/table]

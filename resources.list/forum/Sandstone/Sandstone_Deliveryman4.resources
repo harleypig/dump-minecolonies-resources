@@ -1,0 +1,28 @@
+Sandstone Deliveryman4
+
+  Size (xyz): 11 x 11 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]        birch door:  4
+      birch planks:  8
+      black carpet:  1
+         bookshelf:  2
+        flower pot:  1
+        glass pane:  2
+            ladder:  4
+         oak fence: 43
+         sandstone: 128
+  sandstone stairs:  7
+     spruce stairs:  2
+        stonebrick: 40
+             torch: 14
+          tripwire: 24
+             water:  2
+      white carpet: 34
+[/tbody][/table]

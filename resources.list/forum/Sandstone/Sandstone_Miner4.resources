@@ -1,0 +1,36 @@
+Sandstone Miner4
+
+  Size (xyz): 17 x 13 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]           birch fence:   1
+          birch planks:  32
+          birch stairs:   3
+     birch wooden slab:   5
+              cauldron:   1
+                 chest:   1
+            coal block:   1
+           cobblestone:   4
+        crafting table:   1
+            fence gate:   2
+               furnace:   1
+            glass pane:   4
+                ladder:   7
+             oak fence:  99
+            oak planks:  16
+         orange carpet:   1
+             sandstone: 286
+      sandstone stairs:  18
+  sandstone stone slab:   2
+         silver carpet:  87
+           spruce door:   8
+          stone stairs:   2
+                 torch:  30
+              tripwire:  67
+[/tbody][/table]

@@ -1,0 +1,27 @@
+mesa Farmer5
+
+  Size (xyz): 11 x 13 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                      cauldron:   4
+                         chest:   6
+                    glass pane:  24
+                    gold block:   2
+                     hay block:  37
+                        ladder:  16
+  orange stained hardened clay:  60
+          red sandstone stairs:  42
+     red sandstone stone slab2:  29
+     red stained hardened clay:  44
+                   spruce door:   8
+                         torch:  29
+           white stained glass:  80
+   white stained hardened clay: 136
+  yellow stained hardened clay:  64
+[/tbody][/table]

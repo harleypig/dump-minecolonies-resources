@@ -1,0 +1,21 @@
+Sandstone WareHouse1
+
+  Size (xyz): 19 x 11 x 17
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]       birch planks: 135
+  birch wooden slab:  28
+              chest:  26
+  light_blue carpet:  49
+          oak fence:  34
+          sandstone: 311
+   sandstone stairs:  42
+              torch:  45
+           tripwire:  33
+[/tbody][/table]

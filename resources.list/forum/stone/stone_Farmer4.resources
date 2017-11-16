@@ -1,0 +1,25 @@
+stone Farmer4
+
+  Size (xyz): 11 x 15 x 15
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                      cauldron:   1
+                   coarse dirt: 111
+                   cobblestone: 165
+  cobblestone cobblestone wall:   8
+                     hay block:  29
+                  spruce fence:  26
+                         stone:  55
+            stone brick stairs: 198
+        stone brick stone slab:  30
+                  stone stairs:  14
+                    stonebrick: 150
+                         torch:  20
+                      trapdoor:  12
+[/tbody][/table]

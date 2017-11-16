@@ -1,0 +1,30 @@
+mesa Citizen3
+
+  Size (xyz): 12 x 16 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                           bed:  6
+                   cobblestone: 21
+                crafting table:  2
+                       furnace:  2
+                    glass pane: 19
+                    gold block:  1
+                   gray carpet:  4
+                 hardened clay: 61
+                    oak stairs:  3
+  orange stained hardened clay: 67
+          red sandstone stairs: 40
+     red stained hardened clay: 62
+                  stone button: 12
+                         torch: 30
+                  white carpet: 14
+   white stained hardened clay:  9
+                   wooden door:  2
+  yellow stained hardened clay: 27
+[/tbody][/table]

@@ -1,0 +1,34 @@
+mesa Deliveryman5
+
+  Size (xyz): 11 x 13 x  9
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                     bookshelf:  8
+                    flower pot:  8
+                     glowstone:  1
+                    gold block:  4
+                   golden rail:  4
+                 hardened clay: 20
+                     oak fence:  4
+  orange stained hardened clay: 12
+                          rail:  5
+                 red sandstone: 26
+          red sandstone stairs: 44
+     red stained hardened clay: 60
+                redstone block:  2
+                 silver carpet:  4
+          silver stained glass:  4
+                   spruce door:  8
+            stone brick stairs:  2
+                    stonebrick: 31
+                         torch: 20
+                  white carpet:  4
+           white stained glass: 17
+   white stained hardened clay: 28
+[/tbody][/table]

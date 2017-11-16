@@ -1,0 +1,15 @@
+miner minerX3LeftRight
+
+  Size (xyz):  7 x  3 x  7
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]   oak fence: 12
+  oak planks:  9
+       torch:  3
+[/tbody][/table]

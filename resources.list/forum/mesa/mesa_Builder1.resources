@@ -1,0 +1,17 @@
+mesa Builder1
+
+  Size (xyz): 12 x  7 x 11
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                 hardened clay: 33
+  orange stained hardened clay: 12
+                      red sand:  9
+     red stained hardened clay:  8
+                         torch: 16
+[/tbody][/table]

@@ -1,0 +1,35 @@
+wooden Baker4
+
+  Size (xyz): 14 x 20 x 12
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                      cauldron:  1
+                   coarse dirt: 30
+                   cobblestone: 69
+  cobblestone cobblestone wall:  2
+        cobblestone stone slab: 16
+                    flower pot:  1
+                       furnace:  4
+                 jungle leaves:  2
+                     oak fence: 61
+                       oak log: 104
+                    oak planks: 14
+                    oak stairs: 61
+               oak wooden slab:  4
+                  spruce fence: 15
+                    spruce log:  4
+                 spruce planks:  6
+                 spruce stairs: 14
+            spruce wooden slab: 71
+                  stone stairs: 24
+                         torch: 12
+                      trapdoor: 50
+                     wall sign:  8
+                 wooden button: 11
+[/tbody][/table]

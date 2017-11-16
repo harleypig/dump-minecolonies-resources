@@ -1,0 +1,40 @@
+mesa TownHall4
+
+  Size (xyz): 32 x 24 x 29
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                           bed:  10
+             birch wooden slab:   1
+                   blue carpet:  12
+                     bookshelf:  25
+                         chest:  16
+                   cobblestone:  35
+                   cyan carpet:  26
+                 dark oak door:  10
+               dark oak stairs:   3
+              enchanting table:   1
+                    glass pane:  75
+                     glowstone:   5
+                    gold block:  10
+                     iron bars:  42
+                       jukebox:   1
+                        ladder:  12
+  orange stained hardened clay: 385
+                  quartz block:   2
+                 quartz stairs:   1
+                 red sandstone: 535
+          red sandstone stairs: 483
+     red stained hardened clay: 352
+                   spruce door:   6
+                         torch: 183
+                         water:  34
+           white stained glass:  42
+   white stained hardened clay: 528
+  yellow stained hardened clay: 233
+[/tbody][/table]

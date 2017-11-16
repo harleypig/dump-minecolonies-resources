@@ -1,0 +1,16 @@
+decoration SimpleFountain
+
+  Size (xyz):  7 x  5 x  7
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]  chiseled stonebrick: 12
+            glowstone:  5
+           stonebrick: 21
+                water: 29
+[/tbody][/table]

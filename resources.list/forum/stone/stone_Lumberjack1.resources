@@ -1,0 +1,18 @@
+stone Lumberjack1
+
+  Size (xyz): 10 x  9 x 13
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                    cobblestone:  8
+   cobblestone cobblestone wall: 14
+  cobblestone double stone slab:  1
+         cobblestone stone slab: 12
+                   stone stairs:  8
+                          torch: 11
+[/tbody][/table]

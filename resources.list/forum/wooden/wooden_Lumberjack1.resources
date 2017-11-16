@@ -1,0 +1,17 @@
+wooden Lumberjack1
+
+  Size (xyz): 12 x 10 x 15
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]      cobblestone:  4
+        oak fence: 14
+       oak planks:  8
+  oak wooden slab: 21
+            torch: 11
+[/tbody][/table]

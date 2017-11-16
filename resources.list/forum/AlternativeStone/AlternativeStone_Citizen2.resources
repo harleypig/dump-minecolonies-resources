@@ -1,0 +1,24 @@
+AlternativeStone Citizen2
+
+  Size (xyz): 14 x 15 x 10
+
+----------------------------------------
+
+[table]
+[thead]
+[theader]Resource[/theader]
+[theader]Amount[/theader]
+[/thead]
+[tbody]                                 bed:   4
+                               chest:   2
+                         cobblestone: 184
+        cobblestone cobblestone wall:  12
+              cobblestone stone slab:  26
+                          glass pane:  16
+  minecolonies:blockConstructionTape:   1
+                           oak fence:   2
+                        stone stairs:  80
+                               torch:  30
+                         wooden door:   4
+               wooden pressure plate:   2
+[/tbody][/table]
