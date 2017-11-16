@@ -27,6 +27,7 @@ sub hut_name {
   my ( $name, $path, $suffix ) = fileparse($filename, '.nbt');
   $path =~ s{^.*/(\w*)/$}{$1};
   return sprintf '%s %s', $path, $name;
+
 }
 
 sub hut_details {
@@ -59,31 +60,42 @@ sub hut_resources {
   my $resources;
 
   my @ignore = qw(
+    minecolonies:blocksolidsubstitution
+    minecolonies:blocksubstitution
+    minecolonies:blockwaypoint
     minecraft:air
-    minecolonies:blockSubstitution
-    minecolonies:blockSolidSubstitution
+    minecraft:water
+
   );
 
   my $max_string_len = -1;
   my $max_count_len  = -1;
 
   for my $type ( keys %{$hut_info->{count}} ) {
-    my $name   = $hut_info->{block_types}[$type]{Name};
+    my $name = $hut_info->{block_types}[$type]{Name};
 
-    next if grep { /$name/ } @ignore;
-    next if $name =~ /^minecolonies:blockHut/;
+    next if grep { /$name/i } @ignore;
+    next if $name =~ /^minecolonies:blockhut/i;
 
     my $count  = $hut_info->{count}{$type};
     my $string = $hut_info->{block_types}[$type]{string};
 
     # Special cases
-    if ( $string =~ /double wooden slab$/ ) {
-      $string =~ s/double //;
-      $resources->{$string} += $count;
 
+    # A double slab, even though it is a single entry, takes two slabs.
+
+    my $double = 0;
+
+    if ( $string =~ /double.*slab/ ) {
+      $string =~ s/double //;
+      $double++;
     }
 
+    # Get rid of all doubled words, like cobblestone cobblestone wall.
+    $string =~ s/(\b(\w+)\b\s+\b\2\b)/$2/g;
+
     $resources->{$string} += $count;
+    $resources->{$string} += $count if $double;
 
     $max_string_len = length $string
       if $max_string_len < length $string;

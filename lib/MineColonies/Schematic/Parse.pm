@@ -3,7 +3,6 @@ package MineColonies::Schematic::Parse;
 use strict;
 use warnings;
 
-
 my $method_hash = {
   author   => sub { simple( 'author',   @_ ) },
   entities => sub { simple( 'entities', @_ ) },
@@ -19,6 +18,8 @@ my $method_hash = {
 };
 
 my $hut_info;
+
+sub simple { $hut_info->{$_[0]} = $_[1] }
 
 sub parse_data {
   my ( $data ) = @_;
@@ -36,8 +37,6 @@ sub parse_data {
   return $hut_info;
 
 }
-
-sub simple { $hut_info->{$_[0]} = $_[1] }
 
 sub blocks {
   my ( $blocks ) = @_;
@@ -59,15 +58,8 @@ sub blocks {
         $hut_info->{count}{$block->{$key}}++;
 
       } elsif ( $key eq 'nbt' ) {
-        #die "multiple nbt's, don't know what to do"
-        #  if exists $hut_info->{hut_pos};
-
-        if ( exists $hut_info->{hut_pos} ) {
-          # Don't do anything with extra nbt's at all.
-          #warn "multiple nbt's, not doing anything with this key";
-        } else {
-          $hut_info->{hut_pos} = $block->{pos};
-        }
+        # XXX: how to handle multiple nbt keys
+        $hut_info->{hut_pos} ||= $block->{pos};
 
       } else {
         warn "uknown key ($key) in blocks\n"
@@ -90,12 +82,16 @@ sub palette {
   for my $type ( @$types ) {
     my $string = $type->{Name};
 
+    # Normalize minecraft vanilla blocks.
     $string =~ s/^minecraft://;
 
-    # Special cases.
+    # We can't have a lit anything (like a lamp) in our inventory.
+    $string =~ s/^lit_//;
 
-    $string =~ s/_+/ /g;
-    $string =~ s/^log2$/log/;
+    # We don't differentiate between log and log2, slab and slab2, etc.
+    $string =~ s/2$//;
+
+    # If it starts with fence, it's an oak fence.
     $string =~ s/^fence$/oak fence/;
 
     # Skip variants of these values.
@@ -109,22 +105,22 @@ sub palette {
 
     if ( exists $type->{Properties} ) {
       my $props   = $type->{Properties};
+
       my $variant = exists $props->{variant} ? $props->{variant} : '';
-      my $color   = exists $props->{color}   ? $props->{color}   : '';
 
-      if ( $variant ne '' && ! grep { /$variant/ } @skip_variant ) {
+      $string = "$variant $string"
+        if $variant ne '' && ! grep { /$variant/ } @skip_variant;
 
-        $variant =~ s/_+/ /g;
-
-        # Avoid 'dirt dirt' or 'cracked stonebrick stonebrick'
-        $string = $variant =~ /$string/ ? $variant : "$variant $string";
-
-      }
-
-      $string = "$color $string"
-        unless $color eq '';
+      $string = "$props->{color} $string"
+        if exists $props->{color};
 
     }
+
+    # Replace underscores with spaces for readability.
+    $string =~ s/_+/ /g;
+
+    # Get rid of all doubled words, like cobblestone cobblestone wall.
+    $string =~ s/(\b(\w+)\b\s+\b\2\b)/$2/g;
 
     $type->{string} = $string;
 

@@ -25,20 +25,25 @@ and you'll see something like this
 
 ```
 stone Builder1
-Size (xyz): 15x9x13
+
+  Size (xyz): 15 x  8 x 13
+
 ----------------------------------------
 
-      cobblestone: 11
-             dirt: 63
-            fence: 42
-          oak log:  3
-       oak planks: 13
-  oak wooden slab: 32
-            torch: 12
+             cobblestone: 24
+  cobblestone stone slab: 32
+        cobblestone wall: 42
+                    dirt: 63
+                 oak log:  3
+                   torch: 12
+
 ```
 
 I've added a directory that contains the output of all nbt files in the schematics directory. Look in 'resources.list'.
 
+## Todos, when I get tuits ...
+* Send output to a file instead of stdout.
+* Add an option to print cumulative resources for a building if it has levels.
+
 ## Todos, maybe ...
 * Do I need to include the location of the hut block in the output?
-* Do I count 'double wooden slabs' as 2 slabs?

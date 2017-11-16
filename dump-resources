@@ -16,13 +16,8 @@
 use strict;
 use warnings;
 
-#use Data::Dumper;
 use File::Basename;
 use Getopt::Long;
-#use Minecraft::NBTReader;
-#use YAML::Syck;
-#
-#$Data::Dumper::Indent=1;
 
 use lib '.';
 use MineColonies::Schematic::Load;
@@ -50,7 +45,7 @@ EOU
   exit 1;
 
   # Add handling for
-  #   --output -o ... send output to a file instead of stdout. 
+  #   --output -o ... send output to a file instead of stdout.
   #   --cumulative -c ... build output based on building levels, if they have levels.
 
 }
