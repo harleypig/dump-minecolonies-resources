@@ -27,7 +27,6 @@ Sandstone Builder5
                          grass:   4
                         ladder:   7
                    lapis block:   1
-             lit redstone lamp:   2
                      oak fence:  35
                  orange carpet:  30
                  purpur stairs:   2
@@ -36,6 +35,7 @@ Sandstone Builder5
           red sandstone stairs:   2
                       red wool:   1
                 redstone block:   2
+                 redstone lamp:   2
                      sandstone: 205
               sandstone stairs:  51
           sandstone stone slab:   2

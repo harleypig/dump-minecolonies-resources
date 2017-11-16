@@ -4,18 +4,18 @@ Sandstone GuardTower5
 
 ----------------------------------------
 
-                      bed:  4
-             birch planks: 23
-             birch stairs: 17
-               bone block:  8
-            dark oak door:  2
-                glowstone:  4
-               gold block:  1
-                iron bars: 26
-                oak fence:  2
-            quartz stairs: 56
-                 red wool: 88
-                sandstone: 177
-         sandstone stairs: 19
-  stone double stone slab: 57
-                    torch: 40
+               bed:  4
+      birch planks: 23
+      birch stairs: 17
+        bone block:  8
+     dark oak door:  2
+         glowstone:  4
+        gold block:  1
+         iron bars: 26
+         oak fence:  2
+     quartz stairs: 56
+          red wool: 88
+         sandstone: 177
+  sandstone stairs: 19
+        stone slab: 114
+             torch: 40

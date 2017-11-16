@@ -4,20 +4,20 @@ wooden Baker3
 
 ----------------------------------------
 
-                   cobblestone: 70
-  cobblestone cobblestone wall:  2
-        cobblestone stone slab: 16
-                       furnace:  3
-                     oak fence: 12
-                       oak log: 107
-                    oak planks: 14
-                    oak stairs: 56
-               oak wooden slab: 12
-                  spruce fence: 55
-                    spruce log:  2
-                 spruce planks:  6
-            spruce wooden slab: 54
-                  stone stairs: 24
-                         torch: 12
-                      trapdoor: 50
-                 wooden button: 13
+             cobblestone: 70
+  cobblestone stone slab: 16
+        cobblestone wall:  2
+                 furnace:  3
+               oak fence: 12
+                 oak log: 107
+              oak planks: 14
+              oak stairs: 56
+         oak wooden slab: 12
+            spruce fence: 55
+              spruce log:  2
+           spruce planks:  6
+      spruce wooden slab: 54
+            stone stairs: 24
+                   torch: 12
+                trapdoor: 50
+           wooden button: 13

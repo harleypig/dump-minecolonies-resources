@@ -9,12 +9,12 @@ mesa Fisherman2
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                   cobblestone: 21
-  cobblestone cobblestone wall:  7
-                 red sandstone: 24
-          red sandstone stairs: 10
-     red sandstone stone slab2: 16
-     red stained hardened clay: 56
-                         torch: 14
-   white stained hardened clay: 12
+[tbody]                  cobblestone: 21
+             cobblestone wall:  7
+                red sandstone: 24
+         red sandstone stairs: 10
+     red sandstone stone slab: 16
+    red stained hardened clay: 56
+                        torch: 14
+  white stained hardened clay: 12
 [/tbody][/table]

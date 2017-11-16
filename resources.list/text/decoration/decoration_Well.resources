@@ -4,11 +4,9 @@ decoration Well
 
 ----------------------------------------
 
-   cobblestone cobblestone wall: 20
-                   spruce fence: 11
-  stone brick double stone slab: 12
-             stone brick stairs: 48
-         stone brick stone slab: 32
-                     stonebrick: 90
-                          torch:  8
-                          water: 18
+        cobblestone wall: 20
+            spruce fence: 11
+      stone brick stairs: 48
+  stone brick stone slab: 56
+              stonebrick: 90
+                   torch:  8

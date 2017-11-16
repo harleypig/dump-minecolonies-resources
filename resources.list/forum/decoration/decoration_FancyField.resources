@@ -12,9 +12,8 @@ decoration FancyField
 [tbody]       dark oak fence: 31
   dark oak fence gate:  1
                  dirt: 37
-    lit redstone lamp:  1
+        redstone lamp:  1
        redstone torch:  1
            stonebrick: 32
                 torch:  8
-                water:  1
 [/tbody][/table]

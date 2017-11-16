@@ -10,10 +10,10 @@ mesa GuardTower2
 [theader]Amount[/theader]
 [/thead]
 [tbody]                   cobblestone: 20
-  cobblestone cobblestone wall: 12
+              cobblestone wall: 12
   orange stained hardened clay: 20
           red sandstone stairs:  8
-     red sandstone stone slab2: 50
+      red sandstone stone slab: 50
      red stained hardened clay: 12
                          torch: 22
    white stained hardened clay: 33

@@ -9,19 +9,19 @@ wooden Baker2
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                   cobblestone:  24
-  cobblestone cobblestone wall:   2
-        cobblestone stone slab:  16
-                       furnace:   2
-                     oak fence: 108
-                       oak log:  86
-                    oak stairs:  16
-               oak wooden slab:   4
-                  spruce fence:   6
-                 spruce planks:   3
-            spruce wooden slab:   6
-                  stone stairs:  16
-                         torch:   8
-                      trapdoor:  44
-                 wooden button:  15
+[tbody]             cobblestone:  24
+  cobblestone stone slab:  16
+        cobblestone wall:   2
+                 furnace:   2
+               oak fence: 108
+                 oak log:  86
+              oak stairs:  16
+         oak wooden slab:   4
+            spruce fence:   6
+           spruce planks:   3
+      spruce wooden slab:   6
+            stone stairs:  16
+                   torch:   8
+                trapdoor:  44
+           wooden button:  15
 [/tbody][/table]

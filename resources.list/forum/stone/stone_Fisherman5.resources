@@ -9,20 +9,20 @@ stone Fisherman5
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                         chest:  2
-                   coarse dirt: 36
-                   cobblestone: 93
-  cobblestone cobblestone wall: 19
-                crafting table:  1
-               dark oak stairs:  2
-          dark oak wooden slab:  3
-                    flower pot:  1
-                    glass pane:  2
-                   spruce door:  2
-                  spruce fence: 10
-                         stone: 62
-            stone brick stairs: 113
-                    stonebrick: 46
-                         torch: 13
-                      trapdoor: 10
+[tbody]                 chest:  2
+           coarse dirt: 36
+           cobblestone: 93
+      cobblestone wall: 19
+        crafting table:  1
+       dark oak stairs:  2
+  dark oak wooden slab:  3
+            flower pot:  1
+            glass pane:  2
+           spruce door:  2
+          spruce fence: 10
+                 stone: 62
+    stone brick stairs: 113
+            stonebrick: 46
+                 torch: 13
+              trapdoor: 10
 [/tbody][/table]

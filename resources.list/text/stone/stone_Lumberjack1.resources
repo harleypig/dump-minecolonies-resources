@@ -4,9 +4,8 @@ stone Lumberjack1
 
 ----------------------------------------
 
-                    cobblestone:  8
-   cobblestone cobblestone wall: 14
-  cobblestone double stone slab:  1
-         cobblestone stone slab: 12
-                   stone stairs:  8
-                          torch: 11
+             cobblestone:  8
+  cobblestone stone slab: 14
+        cobblestone wall: 14
+            stone stairs:  8
+                   torch: 11

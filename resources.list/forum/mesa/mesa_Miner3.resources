@@ -10,7 +10,7 @@ mesa Miner3
 [theader]Amount[/theader]
 [/thead]
 [tbody]                   cobblestone: 18
-  cobblestone cobblestone wall: 72
+              cobblestone wall: 72
                 crafting table:  2
                        furnace:  2
                          glass:  4

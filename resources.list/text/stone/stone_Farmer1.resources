@@ -4,8 +4,7 @@ stone Farmer1
 
 ----------------------------------------
 
-                   cobblestone: 12
-  cobblestone cobblestone wall: 37
-                     hay block:  4
-                         torch:  4
-                         water:  1
+       cobblestone: 12
+  cobblestone wall: 37
+         hay block:  4
+             torch:  4

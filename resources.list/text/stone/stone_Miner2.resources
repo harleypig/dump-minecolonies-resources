@@ -4,13 +4,13 @@ stone Miner2
 
 ----------------------------------------
 
-                   cobblestone: 170
-  cobblestone cobblestone wall:  31
-                          dirt:   4
-                    glass pane:   4
-                        ladder:   3
-                     oak fence:   2
-                  stone stairs:  95
-                    stonebrick:  21
-                         torch:  15
-                   wooden door:   4
+       cobblestone: 170
+  cobblestone wall:  31
+              dirt:   4
+        glass pane:   4
+            ladder:   3
+         oak fence:   2
+      stone stairs:  95
+        stonebrick:  21
+             torch:  15
+       wooden door:   4

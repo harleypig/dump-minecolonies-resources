@@ -9,15 +9,15 @@ stone Farmer3
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                      cauldron:   1
-                   coarse dirt: 111
-                   cobblestone:   8
-  cobblestone cobblestone wall:  56
-                     hay block:  15
-                  spruce fence:  12
-                         stone:  40
-            stone brick stairs:  80
-        stone brick stone slab:  95
-                    stonebrick:  40
-                         torch:  16
+[tbody]                cauldron:   1
+             coarse dirt: 111
+             cobblestone:   8
+        cobblestone wall:  56
+               hay block:  15
+            spruce fence:  12
+                   stone:  40
+      stone brick stairs:  80
+  stone brick stone slab:  95
+              stonebrick:  40
+                   torch:  16
 [/tbody][/table]

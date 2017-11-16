@@ -9,24 +9,24 @@ stone Miner5
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                  black carpet:   4
-                   cobblestone: 127
-  cobblestone cobblestone wall:  61
-                crafting table:   1
-                 dark oak door:   4
-                          dirt:   4
-                 emerald block:   1
-                       furnace:   3
-                         glass:   9
-                    glass pane:   4
-                  green carpet:   8
-                     iron bars:   2
-                        ladder:   3
-                  spruce fence:  20
-                         stone: 114
-            stone brick stairs: 160
-                  stone stairs:   2
-                    stonebrick:  66
-                         torch:  15
-                      trapdoor:   8
+[tbody]        black carpet:   4
+         cobblestone: 127
+    cobblestone wall:  61
+      crafting table:   1
+       dark oak door:   4
+                dirt:   4
+       emerald block:   1
+             furnace:   3
+               glass:   9
+          glass pane:   4
+        green carpet:   8
+           iron bars:   2
+              ladder:   3
+        spruce fence:  20
+               stone: 114
+  stone brick stairs: 160
+        stone stairs:   2
+          stonebrick:  66
+               torch:  15
+            trapdoor:   8
 [/tbody][/table]

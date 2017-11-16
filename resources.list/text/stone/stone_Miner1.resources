@@ -4,9 +4,9 @@ stone Miner1
 
 ----------------------------------------
 
-                   cobblestone: 48
-  cobblestone cobblestone wall: 32
-        cobblestone stone slab: 36
-                        ladder:  3
-                  stone stairs: 18
-                         torch:  9
+             cobblestone: 48
+  cobblestone stone slab: 36
+        cobblestone wall: 32
+                  ladder:  3
+            stone stairs: 18
+                   torch:  9

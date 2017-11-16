@@ -9,15 +9,14 @@ Parks SimplePark
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                   cobblestone:   8
-  cobblestone cobblestone wall:  36
-                          dirt: 249
-                         grass: 179
-                        gravel:  64
-                     oak fence:  32
-                    oak stairs:  16
-                    red flower:  56
-                  stone stairs:   8
-                         torch:  24
-                         water:  16
+[tbody]       cobblestone:   8
+  cobblestone wall:  36
+              dirt: 249
+             grass: 179
+            gravel:  64
+         oak fence:  32
+        oak stairs:  16
+        red flower:  56
+      stone stairs:   8
+             torch:  24
 [/tbody][/table]

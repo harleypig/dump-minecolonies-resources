@@ -4,11 +4,9 @@ stone Farmer2
 
 ----------------------------------------
 
-                    cobblestone: 22
-   cobblestone cobblestone wall: 62
-  cobblestone double stone slab: 25
-         cobblestone stone slab: 33
-                      hay block: 12
-                   stone stairs: 24
-                          torch: 10
-                          water:  1
+             cobblestone: 22
+  cobblestone stone slab: 83
+        cobblestone wall: 62
+               hay block: 12
+            stone stairs: 24
+                   torch: 10

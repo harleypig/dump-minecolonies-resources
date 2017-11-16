@@ -9,18 +9,18 @@ walls StoneWallGate
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                   cobblestone: 201
-  cobblestone cobblestone wall:  39
-                 dark oak door:   8
-                    glass pane:  15
-                  spruce fence: 108
-                    spruce log: 124
-                 spruce planks:   6
-                 spruce stairs:  46
-            spruce wooden slab:  98
-            stone brick stairs: 138
-        stone brick stone slab:  92
-                  stone stairs: 124
-                    stonebrick: 787
-                         torch:  49
+[tbody]             cobblestone: 201
+        cobblestone wall:  39
+           dark oak door:   8
+              glass pane:  15
+            spruce fence: 108
+              spruce log: 124
+           spruce planks:   6
+           spruce stairs:  46
+      spruce wooden slab:  98
+      stone brick stairs: 138
+  stone brick stone slab:  92
+            stone stairs: 124
+              stonebrick: 787
+                   torch:  49
 [/tbody][/table]

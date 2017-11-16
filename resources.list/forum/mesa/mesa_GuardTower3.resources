@@ -9,14 +9,13 @@ mesa GuardTower3
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                       cobblestone: 20
-      cobblestone cobblestone wall: 24
-                            ladder:  5
-      orange stained hardened clay: 20
-  red sandstone double stone slab2:  4
-              red sandstone stairs: 28
-         red sandstone stone slab2: 56
-         red stained hardened clay: 12
-                             torch: 18
-       white stained hardened clay: 38
+[tbody]                   cobblestone: 20
+              cobblestone wall: 24
+                        ladder:  5
+  orange stained hardened clay: 20
+          red sandstone stairs: 28
+      red sandstone stone slab: 64
+     red stained hardened clay: 12
+                         torch: 18
+   white stained hardened clay: 38
 [/tbody][/table]

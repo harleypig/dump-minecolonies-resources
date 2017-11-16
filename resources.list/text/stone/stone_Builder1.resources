@@ -4,9 +4,9 @@ stone Builder1
 
 ----------------------------------------
 
-                   cobblestone: 24
-  cobblestone cobblestone wall: 42
-        cobblestone stone slab: 32
-                          dirt: 63
-                       oak log:  3
-                         torch: 12
+             cobblestone: 24
+  cobblestone stone slab: 32
+        cobblestone wall: 42
+                    dirt: 63
+                 oak log:  3
+                   torch: 12

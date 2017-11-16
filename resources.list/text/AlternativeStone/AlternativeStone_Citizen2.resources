@@ -7,8 +7,8 @@ AlternativeStone Citizen2
                                  bed:   4
                                chest:   2
                          cobblestone: 184
-        cobblestone cobblestone wall:  12
               cobblestone stone slab:  26
+                    cobblestone wall:  12
                           glass pane:  16
   minecolonies:blockConstructionTape:   1
                            oak fence:   2

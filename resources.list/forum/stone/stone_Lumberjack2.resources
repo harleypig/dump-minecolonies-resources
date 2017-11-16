@@ -9,13 +9,12 @@ stone Lumberjack2
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                    cobblestone: 38
-   cobblestone cobblestone wall: 30
-  cobblestone double stone slab:  3
-         cobblestone stone slab: 25
-                 crafting table:  1
-                      oak fence:  8
-                        oak log:  5
-                   stone stairs: 20
-                          torch: 11
+[tbody]             cobblestone: 38
+  cobblestone stone slab: 31
+        cobblestone wall: 30
+          crafting table:  1
+               oak fence:  8
+                 oak log:  5
+            stone stairs: 20
+                   torch: 11
 [/tbody][/table]

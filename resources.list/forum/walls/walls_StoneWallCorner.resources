@@ -9,16 +9,16 @@ walls StoneWallCorner
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                   cobblestone: 32
-  cobblestone cobblestone wall: 16
-        cobblestone stone slab: 14
-                  spruce fence: 10
-                    spruce log: 21
-                 spruce planks:  3
-            spruce wooden slab: 35
-            stone brick stairs:  9
-        stone brick stone slab:  6
-                  stone stairs: 23
-                    stonebrick: 59
-                         torch: 10
+[tbody]             cobblestone: 32
+  cobblestone stone slab: 14
+        cobblestone wall: 16
+            spruce fence: 10
+              spruce log: 21
+           spruce planks:  3
+      spruce wooden slab: 35
+      stone brick stairs:  9
+  stone brick stone slab:  6
+            stone stairs: 23
+              stonebrick: 59
+                   torch: 10
 [/tbody][/table]

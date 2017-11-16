@@ -9,7 +9,7 @@ mesa Citizen5
                       cauldron:  2
            chiseled stonebrick:  2
                    cobblestone: 21
-  cobblestone cobblestone wall:  1
+              cobblestone wall:  1
                 crafting table:  2
                  dark oak door:  4
                dark oak stairs:  3
@@ -27,12 +27,11 @@ mesa Citizen5
                     red carpet:  4
                  red sandstone:  3
           red sandstone stairs: 25
-     red sandstone stone slab2: 18
+      red sandstone stone slab: 18
      red stained hardened clay: 77
                   spruce fence:  2
                   stone button: 12
                          torch: 38
-                         water:  2
                   white carpet:  7
    white stained hardened clay:  9
   yellow stained hardened clay: 27

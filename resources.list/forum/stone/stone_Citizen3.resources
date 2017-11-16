@@ -9,26 +9,25 @@ stone Citizen3
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                            bed:   4
-                   black carpet:   6
-                          chest:   1
-                    cobblestone: 232
-   cobblestone cobblestone wall:   8
-  cobblestone double stone slab:   1
-         cobblestone stone slab:  34
-                 crafting table:   1
-                        furnace:   1
-                     glass pane:  40
-                oak wooden slab:  18
-                     red carpet:  10
-                   spruce fence:   4
-                  spruce planks:  44
-                          stone:  96
-             stone brick stairs:  79
-                   stone button:   7
-                   stone stairs: 123
-                     stonebrick:  90
-                          torch:  12
-                     white wool:   4
-                    wooden door:   4
+[tbody]                     bed:   4
+            black carpet:   6
+                   chest:   1
+             cobblestone: 232
+  cobblestone stone slab:  36
+        cobblestone wall:   8
+          crafting table:   1
+                 furnace:   1
+              glass pane:  40
+         oak wooden slab:  18
+              red carpet:  10
+            spruce fence:   4
+           spruce planks:  44
+                   stone:  96
+      stone brick stairs:  79
+            stone button:   7
+            stone stairs: 123
+              stonebrick:  90
+                   torch:  12
+              white wool:   4
+             wooden door:   4
 [/tbody][/table]

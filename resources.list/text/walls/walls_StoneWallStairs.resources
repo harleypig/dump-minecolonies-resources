@@ -4,12 +4,12 @@ walls StoneWallStairs
 
 ----------------------------------------
 
-                   cobblestone: 20
-  cobblestone cobblestone wall:  6
-        cobblestone stone slab:  3
-                  spruce fence:  6
-                    spruce log: 12
-            stone brick stairs: 14
-                  stone stairs: 13
-                    stonebrick: 48
-                         torch:  4
+             cobblestone: 20
+  cobblestone stone slab:  3
+        cobblestone wall:  6
+            spruce fence:  6
+              spruce log: 12
+      stone brick stairs: 14
+            stone stairs: 13
+              stonebrick: 48
+                   torch:  4

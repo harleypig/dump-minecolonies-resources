@@ -9,19 +9,19 @@ mesa Fisherman3
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                 acacia stairs: 12
-            acacia wooden slab:  5
-                      cauldron:  1
-                   cobblestone: 21
-  cobblestone cobblestone wall: 14
-                    glass pane:  6
-                    gold block:  1
-                     iron bars:  3
-                 red sandstone: 24
-          red sandstone stairs:  2
-     red sandstone stone slab2: 16
-     red stained hardened clay: 73
-                         torch: 17
-   white stained hardened clay: 12
-                    white wool:  7
+[tbody]                acacia stairs: 12
+           acacia wooden slab:  5
+                     cauldron:  1
+                  cobblestone: 21
+             cobblestone wall: 14
+                   glass pane:  6
+                   gold block:  1
+                    iron bars:  3
+                red sandstone: 24
+         red sandstone stairs:  2
+     red sandstone stone slab: 16
+    red stained hardened clay: 73
+                        torch: 17
+  white stained hardened clay: 12
+                   white wool:  7
 [/tbody][/table]

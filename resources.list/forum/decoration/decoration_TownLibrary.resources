@@ -9,40 +9,39 @@ decoration TownLibrary
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                  birch planks: 179
-             birch wooden slab: 166
-                     bookshelf: 130
-                         chest:  19
-           chiseled stonebrick:  49
-  cobblestone cobblestone wall:   4
-                crafting table:   1
-                 dark oak door:   8
-               dark oak planks:   1
-               dark oak stairs:  17
-    daylight detector inverted:   1
-                       furnace:   1
-                    glass pane:  69
-                        gravel:  19
-                        hopper:   5
-                     iron door:   2
-                         lever:   4
-             lit redstone lamp:  11
-                     oak fence:   9
-                    oak leaves:  70
-                    oak planks: 175
-                    oak stairs:  12
-              powered repeater:   1
-                    red carpet: 136
-                 redstone lamp:  20
-                redstone torch:   1
-                 redstone wire:  83
-     silver stained glass pane:  60
-         smooth andesite stone:  66
-            stone brick stairs: 171
-        stone brick stone slab:   8
-                    stonebrick: 898
-                         torch:  16
-                      trapdoor:   2
-            unpowered repeater:   4
-                     wall sign:   1
+[tbody]                birch planks: 179
+           birch wooden slab: 166
+                   bookshelf: 130
+                       chest:  19
+         chiseled stonebrick:  49
+            cobblestone wall:   4
+              crafting table:   1
+               dark oak door:   8
+             dark oak planks:   1
+             dark oak stairs:  17
+  daylight detector inverted:   1
+                     furnace:   1
+                  glass pane:  69
+                      gravel:  19
+                      hopper:   5
+                   iron door:   2
+                       lever:   4
+                   oak fence:   9
+                  oak leaves:  70
+                  oak planks: 175
+                  oak stairs:  12
+            powered repeater:   1
+                  red carpet: 136
+               redstone lamp:  31
+              redstone torch:   1
+               redstone wire:  83
+   silver stained glass pane:  60
+       smooth andesite stone:  66
+          stone brick stairs: 171
+      stone brick stone slab:   8
+                  stonebrick: 898
+                       torch:  16
+                    trapdoor:   2
+          unpowered repeater:   4
+                   wall sign:   1
 [/tbody][/table]

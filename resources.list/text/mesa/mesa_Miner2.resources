@@ -5,11 +5,11 @@ mesa Miner2
 ----------------------------------------
 
                    cobblestone: 18
-  cobblestone cobblestone wall: 25
+              cobblestone wall: 25
                          glass:  4
                         ladder:  3
   orange stained hardened clay: 12
-     red sandstone stone slab2: 21
+      red sandstone stone slab: 21
      red stained hardened clay: 33
                          torch: 20
    white stained hardened clay: 40

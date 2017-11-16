@@ -4,18 +4,18 @@ stone Fisherman4
 
 ----------------------------------------
 
-                         chest:  2
-                   coarse dirt: 36
-                   cobblestone: 84
-  cobblestone cobblestone wall: 16
-                crafting table:  1
-                    glass pane:  2
-                   spruce door:  2
-                  spruce fence: 10
-                 spruce stairs:  2
-            spruce wooden slab:  3
-                         stone: 53
-            stone brick stairs: 91
-                    stonebrick: 38
-                         torch: 14
-                      trapdoor:  6
+               chest:  2
+         coarse dirt: 36
+         cobblestone: 84
+    cobblestone wall: 16
+      crafting table:  1
+          glass pane:  2
+         spruce door:  2
+        spruce fence: 10
+       spruce stairs:  2
+  spruce wooden slab:  3
+               stone: 53
+  stone brick stairs: 91
+          stonebrick: 38
+               torch: 14
+            trapdoor:  6

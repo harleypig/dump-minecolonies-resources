@@ -9,10 +9,10 @@ stone Miner1
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                   cobblestone: 48
-  cobblestone cobblestone wall: 32
-        cobblestone stone slab: 36
-                        ladder:  3
-                  stone stairs: 18
-                         torch:  9
+[tbody]             cobblestone: 48
+  cobblestone stone slab: 36
+        cobblestone wall: 32
+                  ladder:  3
+            stone stairs: 18
+                   torch:  9
 [/tbody][/table]

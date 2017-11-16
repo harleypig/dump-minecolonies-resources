@@ -9,21 +9,20 @@ Parks FancyPark
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]         chiseled quartz block:  36
-                   cobblestone:  37
-  cobblestone cobblestone wall:  13
-                          dirt:  18
-      double rose double plant:  27
-                         grass: 437
-                     iron bars:   6
-                    oak leaves: 115
-                    oak stairs:  15
-                  quartz block:  22
-            stone brick stairs: 133
-        stone brick stone slab:   1
-                    stonebrick:  34
-        sunflower double plant:  27
-                         torch:  31
-                          vine:  44
-                         water:  41
+[tbody]     chiseled quartz block:  36
+               cobblestone:  37
+          cobblestone wall:  13
+                      dirt:  18
+  double rose double plant:  27
+                     grass: 437
+                 iron bars:   6
+                oak leaves: 115
+                oak stairs:  15
+              quartz block:  22
+        stone brick stairs: 133
+    stone brick stone slab:   1
+                stonebrick:  34
+    sunflower double plant:  27
+                     torch:  31
+                      vine:  44
 [/tbody][/table]

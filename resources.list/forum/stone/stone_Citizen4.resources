@@ -9,31 +9,31 @@ stone Citizen4
 [theader]Resource[/theader]
 [theader]Amount[/theader]
 [/thead]
-[tbody]                           bed:   4
-                  birch stairs:   2
-                  black carpet:   6
-                         chest:   3
-                   cobblestone: 157
-  cobblestone cobblestone wall:  12
-        cobblestone stone slab:   4
-                crafting table:   1
-                 dark oak door:   4
-                    flower pot:  22
-                       furnace:   1
-                    glass pane:  40
-             light_blue carpet:  14
-               oak wooden slab:  18
-                    red carpet:  10
-                  spruce fence:   4
-                 spruce planks:  44
-                         stone: 150
-            stone brick stairs: 137
-        stone brick stone slab:  30
-                  stone button:   7
-                  stone stairs: 106
-                    stonebrick:  92
-                         torch:  12
-                      trapdoor:  40
-                     wall sign:   2
-                    white wool:   4
+[tbody]                     bed:   4
+            birch stairs:   2
+            black carpet:   6
+                   chest:   3
+             cobblestone: 157
+  cobblestone stone slab:   4
+        cobblestone wall:  12
+          crafting table:   1
+           dark oak door:   4
+              flower pot:  22
+                 furnace:   1
+              glass pane:  40
+       light blue carpet:  14
+         oak wooden slab:  18
+              red carpet:  10
+            spruce fence:   4
+           spruce planks:  44
+                   stone: 150
+      stone brick stairs: 137
+  stone brick stone slab:  30
+            stone button:   7
+            stone stairs: 106
+              stonebrick:  92
+                   torch:  12
+                trapdoor:  40
+               wall sign:   2
+              white wool:   4
 [/tbody][/table]

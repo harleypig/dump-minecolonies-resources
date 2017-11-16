@@ -10,7 +10,7 @@ mesa Baker3
 [theader]Amount[/theader]
 [/thead]
 [tbody]                   cobblestone: 14
-  cobblestone cobblestone wall: 12
+              cobblestone wall: 12
                        furnace:  3
                     glass pane: 12
                     gold block:  1
