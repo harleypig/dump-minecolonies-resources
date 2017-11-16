@@ -18,6 +18,7 @@ use warnings;
 
 #use Data::Dumper;
 use File::Basename;
+use Getopt::Long;
 #use Minecraft::NBTReader;
 #use YAML::Syck;
 #
@@ -30,8 +31,51 @@ use MineColonies::Schematic::Resources;
 
 #################################################################################
 
+sub usage {
+  print <<EOU;
+Usage: $0 [options] NBTFile
+
+Options:
+  -h --help         This help page.
+
+  -t --output-type  Possible types are
+
+      text  - Simple text file.
+      forum - Formatted for the MineColonies forum.
+
+EOU
+
+  print "$_\n" for @_;
+
+  exit 1;
+
+  # Add handling for
+  #   --output -o ... send output to a file instead of stdout. 
+  #   --cumulative -c ... build output based on building levels, if they have levels.
+
+}
+
+# Defaults
+my $output_type = 'text';
+
+GetOptions(
+  'help|?'     => \my $help,
+  'output-type|t=s' => \$output_type,
+) or usage();
+
+$help && usage();
+
+my @valid_output_types = qw( text forum );
+my $ot_rx = join '|', @valid_output_types;
+
+$output_type =~ /^($ot_rx)$/ or usage("Unknown output type: $output_type");
+
+#################################################################################
+
 my $filename = shift or die "Must pass filename.\n";
 my $data     = MineColonies::Schematic::Load::read_file($filename);
 my $hut_info = MineColonies::Schematic::Parse::parse_data($data);
+
+$hut_info->{output_type} = $output_type;
 
 MineColonies::Schematic::Resources::dump_required_resources( $hut_info, $filename );

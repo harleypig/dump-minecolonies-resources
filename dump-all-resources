@@ -1,5 +1,11 @@
 #!/bin/bash
 
+OT='text'
+
+if [[ "$#" -gt 0 ]]; then
+  OT="$1"
+fi
+
 BASE_DIR='mc.jar'
 SCHEMATICS_DIR="${BASE_DIR}/assets/minecolonies/schematics"
 RESOURCES_LIST_DIR='./resources.list'
@@ -10,11 +16,11 @@ for f in "${schematics[@]}"; do
   FILE=${f/$SCHEMATICS_DIR\//}
   TYPE=$(dirname "$FILE")
   NAME=$(basename "$FILE" .nbt)
-  R_DIR="${RESOURCES_LIST_DIR}/${TYPE}"
-  R_FILE="${R_DIR}/${TYPE}_${NAME}.resources"
+  R_DIR="$RESOURCES_LIST_DIR/$OT/$TYPE"
+  R_FILE="$R_DIR/${TYPE}_${NAME}.resources"
 
   mkdir -p "$R_DIR" || { echo "Can't mkdir $R_DIR" ; exit 1 ; }
 
   printf '%s %s\n' "$TYPE" "$NAME"
-  ./dump-resources "$f" > "$R_FILE"
+  ./dump-resources --output-type "$OT" "$f" > "$R_FILE"
 done

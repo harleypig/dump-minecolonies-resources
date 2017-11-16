@@ -14,8 +14,11 @@ sub dump_required_resources {
 
   my ( $res_fmt, $resources ) = hut_resources( $hut_info );
 
-  printf "%s\n\n%s\n\n%s\n\n", $hut_name, $hut_details, '-' x 40;
-  printf $res_fmt, $_, $resources->{$_} for sort keys %$resources;
+  my $ot = $hut_info->{output_type} || die "output_type not set";
+  $ot = "output_type_$ot";
+
+  no strict 'refs';
+  &$ot($hut_name, $hut_details, $res_fmt, $resources);
 
 }
 
@@ -93,6 +96,24 @@ sub hut_resources {
   my $hut_res_fmt = "  %${max_string_len}s: %${max_count_len}d\n";
 
   return ( $hut_res_fmt, $resources );
+
+}
+
+sub output_type_text {
+  my ( $hut_name, $hut_details, $res_fmt, $resources ) = @_;
+  printf "%s\n\n%s\n\n%s\n\n", $hut_name, $hut_details, '-' x 40;
+  printf $res_fmt, $_, $resources->{$_} for sort keys %$resources;
+
+}
+
+sub output_type_forum {
+  my ( $hut_name, $hut_details, $res_fmt, $resources ) = @_;
+  printf "%s\n\n%s\n\n%s\n\n", $hut_name, $hut_details, '-' x 40;
+  printf "[table]\n[thead]\n[theader]Resource[/theader]\n[theader]Amount[/theader]\n[/thead]\n[tbody]";
+  printf $res_fmt, $_, $resources->{$_} for sort keys %$resources;
+  printf "[/tbody]";
+  printf "[/table]";
+  printf "\n";
 
 }
 
